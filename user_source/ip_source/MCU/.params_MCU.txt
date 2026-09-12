@@ -1,0 +1,28 @@
+MCU_RESET_VECTOR : 'h20E00000 : U : En :  :  : 
+JTAG_Available : 1 : U : En :  :  : 
+GPIO0_Available : 1 : U : En :  :  : 
+GPIO1_Available : 1 : U : En :  :  : 
+GPIO2_Available : 1 : U : En :  :  : 
+GPIO3_Available : 1 : U : En :  :  : 
+GPIO4_Available : 1 : U : En :  :  : 
+GPIO5_Available : 1 : U : En :  :  : 
+GPIO6_Available : 1 : U : En :  :  : 
+GPIO7_Available : 1 : U : En :  :  : 
+UART0_Available : 1 : U : En :  :  : 
+UART1_Available : 1 : U : En :  :  : 
+I2C_Available : 0 : U : En :  :  : 
+QSPI_Available : 1 : U : En :  :  : 
+AHB_Available : 1 : U : En :  :  : 
+APB_Available : 1 : U : En :  :  : 
+MCU_JTAG_SEL : 1 : G : En :  :  : 
+QSPI_FREQ : 50.0 : G : En :  :  : 
+AHB_FREQ : 150.0 : G : En :  :  : 
+Core_Clock_FREQ : 300 : U : En :  :  : 
+Timer_Clock_FREQ : 100 : U : En :  :  : 
+AHB_Div : 2 : U : En : 2;;3;;4 :  : 
+QSPI0_Div : 6 : U : En :  :  : 
+QSPI1_Div : 6 : U : En :  :  : 
+UART0_Baud_Rate : 115200 : U : En : 300;;1200;;2400;;4800;;9600;;19200;;38400;;57600;;115200;;128000;;230400;;460800;;921600 :  : 
+UART1_Baud_Rate : 115200 : U : En : 300;;1200;;2400;;4800;;9600;;19200;;38400;;57600;;115200;;128000;;230400;;460800;;921600 :  : 
+MCU_DPLL_POST_DIV : 4 : G : En :  :  : 
+ERROR_FLAG : 0 : G : En :  :  : 

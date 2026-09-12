@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:anlogic="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>anlogic.com</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>design_PLL</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:componentInstances>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="ip" name="PLLF6F1D0P0" version="1.0"/>
+            <ipxact:configurableElementValues>
+                <ipxact:configurableElementValue referenceId="FIN_DISP">50.000000000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FEEDBK_MODE_DISP">&quot;Normal&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FIN_UNIT_DISP">&quot;MHz&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FEEDBK_CLK_DISP">&quot;CLK0&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ENABLE_RESET_DISP">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ENABLE_POWER_DOWN_DISP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ENABLE_CLOCK_RESET_DISP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ENABLE_PLL_LOCK_DISP">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ENABLE_DYNAMIC_COARSE_PS_DISP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ENABLE_DYNAMIC_FINE_PS_DISP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CONFIG_MODE_DISP">&quot;Clock Frequency&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLOCK_DIVISION_FACTOR_SET_DISP">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLOCK_MULT_FACTOR_SET_DISP">2</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_ENABLE_DISP">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_REQUEST_FREQ_DISP">100.000000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_REQUEST_FREQ_UNIT_DISP">&quot;MHz&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_DIVISION_FACTOR_SET_DISP">15</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_ENABLE_CLOCK_DISP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_USE_B_CLOCK_DISP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_REQUEST_DUTY_CYCLE">50.00</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_ENABLE_DISP">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_REQUEST_FREQ_DISP">24.000000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_REQUEST_FREQ_UNIT_DISP">&quot;MHz&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_DIVISION_FACTOR_SET_DISP">63</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_REQUEST_PHASE_SHIFT_DISP">0.0000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_REQUEST_PHASE_SHIFT_UNIT_DISP">&quot;deg&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_REQUEST_DUTY_CYCLE">50.00</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_USE_B_CLOCK_DISP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_ENABLE_CLOCK_DISP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK2_ENABLE_DISP">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK3_ENABLE_DISP">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_ENABLE_DISP">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_REQUEST_FREQ_DISP">74.250000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_ENABLE_DISP">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_REQUEST_FREQ_DISP">371.250000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK6_ENABLE_DISP">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_ENABLE_DISP">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_ENABLE_CLOCK_DISP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_USE_B_CLOCK_DISP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_ENABLE_CLOCK_DISP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_USE_B_CLOCK_DISP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_ENABLE_CLOCK_DISP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_USE_B_CLOCK_DISP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_REQUEST_FREQ_UNIT_DISP">&quot;MHz&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_REQUEST_FREQ_UNIT_DISP">&quot;MHz&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_REQUEST_FREQ_UNIT_DISP">&quot;MHz&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_DIVISION_FACTOR_SET_DISP">20</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_DIVISION_FACTOR_SET_DISP">4</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_REQUEST_PHASE_SHIFT_DISP">0.0000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_REQUEST_PHASE_SHIFT_DISP">0.0000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_REQUEST_PHASE_SHIFT_UNIT_DISP">&quot;deg&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_REQUEST_PHASE_SHIFT_UNIT_DISP">&quot;deg&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_REQUEST_DUTY_CYCLE">50.00</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_REQUEST_DUTY_CYCLE">50.00</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="BandWidth_setting_DISP">&quot;High&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="feedback_clk_idx">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="feedback_mode">&quot;NORMAL&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="UseClkFreqSetting">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_FORCE_SET">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_FORCE_SET">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK2_FORCE_SET">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK3_FORCE_SET">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_FORCE_SET">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_FORCE_SET">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK6_FORCE_SET">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_FORCE_SET">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_ENABLE_CTRL">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_ENABLE_CTRL">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK2_ENABLE_CTRL">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK3_ENABLE_CTRL">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_ENABLE_CTRL">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_ENABLE_CTRL">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK6_ENABLE_CTRL">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_ENABLE_CTRL">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FIN_Min">10.000000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FIN_Max">600.000000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DIV_FACTOR_Min">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DIV_FACTOR_Max">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="MULT_FACTOR_Min">2</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="MULT_FACTOR_Max">2</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="VCO_FRAC_AMP_Min">0.00000000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="VCO_FRAC_AMP_Max">0.00000000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_DIV_FACTOR_Min">15</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_DIV_FACTOR_Max">15</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_DIV_FACTOR_Min">63</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_DIV_FACTOR_Max">63</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK2_DIV_FACTOR_Min">12</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK2_DIV_FACTOR_Max">12</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK3_DIV_FACTOR_Min">12</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK3_DIV_FACTOR_Max">12</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_DIV_FACTOR_Min">20</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_DIV_FACTOR_Max">20</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_DIV_FACTOR_Min">4</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_DIV_FACTOR_Max">4</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK6_DIV_FACTOR_Min">12</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK6_DIV_FACTOR_Max">12</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="VCO_FRACTIONAL_ENABLE_GEN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_FREQ_Min">6.25</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_FREQ_Max">1000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_FREQ_Min">6.25</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK2_FREQ_Min">6.25</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK3_FREQ_Min">6.25</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_FREQ_Min">6.25</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_FREQ_Min">6.25</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK6_FREQ_Min">6.25</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_FREQ_Min">6.25</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_FREQ_Max">1000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK2_FREQ_Max">1000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK3_FREQ_Max">1000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_FREQ_Max">1000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_FREQ_Max">1000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK6_FREQ_Max">1000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_FREQ_Max">1000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_PS_Max">359.9999</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_PS_Max">359.9999</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK2_PS_Max">359.9999</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK3_PS_Max">359.9999</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_PS_Max">359.9999</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_PS_Max">359.9999</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK6_PS_Max">359.9999</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_PS_Max">359.9999</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_DC_Max">99.99</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_DC_Max">99.99</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK2_DC_Max">99.99</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK3_DC_Max">99.99</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_DC_Max">99.99</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_DC_Max">99.99</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK6_DC_Max">99.99</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_DC_Max">99.99</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_BUFFER">&quot;BUFG&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_BUFFER">&quot;NONE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_BUFFER">&quot;NONE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_BUFFER">&quot;NONE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="REQ_CLK_ENABLE_SUM">&quot;1 1 0 0 1 1 0 0&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="REQ_FREQ_SUM">&quot;100.000000 24.000000 100.0000 100.0000 74.250000 371.250000 100.0000 100.0000&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="REQ_FREQ_UNIT_SUM">&quot;MHz MHz MHz MHz MHz MHz MHz MHz&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="REQ_PHASE_SHIFT_SUM">&quot;0.0000 0.0000 0 0 0.0000 0.0000 0 0&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="REQ_PHASE_SHIFT_UNIT_SUM">&quot;deg deg deg deg deg deg deg deg&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="REQ_DUTY_CYCLE_SUM">&quot;50.00 50.00 50.00 50.00 50.00 50.00 50.00 50.00&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="REQ_POST_SCALE_COUNTER_SUM">&quot;15 63 10 10 20 4 10 10&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FIN_FREQ_MHz">50.000000000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DIVIDER_CALC">&quot;15 63 12 12 20 4 12 12  1500.0 50.0 1 2&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="post_scale_counter">&quot;15 63 12 12 20 4 12 12&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="div_factor">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="mul_factor">2</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="vref">50.0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="vco">1500.0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DUTY_CYCLE_CALC">&quot;50.00 50.00 50.00 50.00 50.00 50.00 50.00 50.00 0 0 0 0 0 0 0 0&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PHASE_SHIFT_CALC">&quot;14 62 0 0 19 3 0 0 0 0 0 0 0 0 0 0 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="VCO_FRACTION_CALC_AUTO">&quot;1500.0 0.0 0 2&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="VCO_FRACTION_CALC_MANUAL">&quot;1500.0 0.0 0 2&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="C0_FRACTIONAL_CALC_AUTO">&quot;0.000 0 100.000000&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="C0_FRACTIONAL_CALC_MANUAL">&quot;0.000 0 100.000000&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SSC_CALC">&quot;0 0&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="POST_SCALE_COUNTER_DIVIDER_CALC_GEN">&quot;15 63 12 12 20 4 12 12&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="VCO_FREQ_DIVIDER_CALC_GEN">1500.0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="VREF_FREQ_DIVIDER_CALC_GEN">50.0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PLL_DIV_FACTOR_GEN">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PLL_MULT_FACTOR_GEN">2</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ACTUAL_DUTY_CYCLE_GEN">&quot;50.00 50.00 50.00 50.00 50.00 50.00 50.00 50.00&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="MODULATE_DUTY_CYCLE_GEN">&quot;0 0 0 0 0 0 0 0&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CPHASE_GEN">&quot;14 62 0 0 19 3 0 0&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FPHASE_GEN">&quot;0 0 0 0 0 0 0 0&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ACTUAL_PHASE_SHIFT_GEN">&quot;0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="VCO_FREQ_FRACTIONAL_CALC_GEN">1500.0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="VCO_FRACTIONAL_AMPLITUDE_GEN">0.0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FREQ_OFFSET_GEN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="mul_factor_vco_fractional">2</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="C0_FRACTIONAL_AMPLITUDE_GEN">0.000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="C0_FRACTIONAL_PARAM_GEN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="C0_ACTUAL_FREQ_GEN">100.000000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SSC_FREQ_DIV_GEN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SSC_RNGE_GEN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ACTUAL_FREQ_CALC">&quot;100.000000 23.809524 125.000000 125.000000 75.000000 375.000000 125.000000 125.000000&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLOCK_MULT_FACTOR_DISP">2</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLOCK_DIVISION_FACTOR_DISP">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="VCO_FRACTIONAL_AMP_DISP">0.00000000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="C0_FRACTIONAL_AMP_DISP">0.000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="VCO_FREQ_DISP">1500.0000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="VREF_FREQ_DISP">50.0000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_DIVISION_FACTOR_DISP">15</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_DIVISION_FACTOR_DISP">63</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_DIVISION_FACTOR_DISP">20</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_DIVISION_FACTOR_DISP">4</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_DIVISION_FACTOR_DISP">12</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_ACTUAL_FREQ_DISP">100.000000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_ACTUAL_FREQ_DISP">75.000000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_ACTUAL_FREQ_DISP">375.000000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_ACTUAL_FREQ_DISP">125.000000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_ACTUAL_PHASE_SHIFT_DISP">0.0000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_ACTUAL_PHASE_SHIFT_DISP">0.0000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_ACTUAL_PHASE_SHIFT_DISP">0.0000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_ACTUAL_PHASE_SHIFT_DISP">0.0000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_ACTUAL_DUTY_CYCLE">50.00</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_ACTUAL_DUTY_CYCLE">50.00</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_ACTUAL_DUTY_CYCLE">50.00</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_ACTUAL_DUTY_CYCLE">50.00</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_ACTUAL_DUTY_CYCLE">50.00</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Input_Frequency_DISP_SUM">50.000000000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Feedback_mode_DISP_SUM">&quot;Normal&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Clock_Used_DISP_SUM">&quot;CLK0&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Enable_Power_Down_DISP_SUM">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Enable_Reset_DISP_SUM">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Enable_Clock_out_Reset_DISP_SUM">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Enable_PLL_Lock_DISP_SUM">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Enable_PLL_Dynamic_Coarse_phase_shift_DISP_SUM">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Enable_PLL_Dynamic_Fine_phase_shift_DISP_SUM">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="BandWidth_setting_DISP_SUM">&quot;High&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_FREQ_DISP_SUM">&quot;100.000000&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_FREQ_DISP_SUM">&quot;23.809524&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_FREQ_DISP_SUM">&quot;75.000000&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_FREQ_DISP_SUM">&quot;375.000000&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_FREQ_DISP_SUM">&quot;125.000000&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_PS_DISP_SUM">0.0000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_PS_DISP_SUM">0.0000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_PS_DISP_SUM">0.0000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_PS_DISP_SUM">0.0000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_PS_DISP_SUM">0.0000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_DC_DISP_SUM">50.00</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_DC_DISP_SUM">50.00</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_DC_DISP_SUM">50.00</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_DC_DISP_SUM">50.00</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_DC_DISP_SUM">50.00</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_DF_DISP_SUM">15</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_DF_DISP_SUM">63</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_DF_DISP_SUM">20</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_DF_DISP_SUM">4</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_DF_DISP_SUM">12</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_CLOCK_B_DISP_SUM">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_CLOCK_B_DISP_SUM">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_CLOCK_B_DISP_SUM">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_CLOCK_B_DISP_SUM">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_CLOCK_B_DISP_SUM">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_CLOCK_ENABLE_DISP_SUM">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_CLOCK_ENABLE_DISP_SUM">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_CLOCK_ENABLE_DISP_SUM">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_CLOCK_ENABLE_DISP_SUM">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_CLOCK_ENABLE_DISP_SUM">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK0_BUFG_DISP_SUM">&quot;BUFG&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_BUFG_DISP_SUM">&quot;NONE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK4_BUFG_DISP_SUM">&quot;NONE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK5_BUFG_DISP_SUM">&quot;NONE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_BUFG_DISP_SUM">&quot;NONE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="BANDWIDTH_CALC">&quot;13 29 0 0&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Charge_pump_current_DISP_SUM">29</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Loop_filter_resistance_DISP_SUM">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Loop_filter_capactiance_DISP_SUM">13</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Charge_pump_current_DISP">29</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Loop_filter_resistance_DISP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Loop_filter_capactiance_DISP">13</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FBMODE_IS_NOCOMP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SSC_ENABLE_GEN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="C0_FRACTIONAL_ENABLE_GEN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK1_ACTUAL_FREQ_DISP">23.809524</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="REFCLK_DIV">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FBCLK_DIV">2</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC0_ENABLE">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC1_ENABLE">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC2_ENABLE">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC3_ENABLE">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC4_ENABLE">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC5_ENABLE">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC6_ENABLE">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC0_DIV">15</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC1_DIV">63</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC2_DIV">12</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC3_DIV">12</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC4_DIV">20</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC5_DIV">4</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC6_DIV">12</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC0_CPHASE">14</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC1_CPHASE">62</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC2_CPHASE">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC3_CPHASE">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC4_CPHASE">19</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC5_CPHASE">3</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC6_CPHASE">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC0_FPHASE">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC1_FPHASE">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC2_FPHASE">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC3_FPHASE">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC4_FPHASE">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC5_FPHASE">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC6_FPHASE">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC0_FPHASE_RSTSEL">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC1_FPHASE_RSTSEL">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC2_FPHASE_RSTSEL">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC3_FPHASE_RSTSEL">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC4_FPHASE_RSTSEL">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC5_FPHASE_RSTSEL">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC6_FPHASE_RSTSEL">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC0_DUTY50">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC1_DUTY50">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC2_DUTY50">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC3_DUTY50">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC4_DUTY50">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC5_DUTY50">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC6_DUTY50">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC0_DUTY_INT">8</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC1_DUTY_INT">32</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC2_DUTY_INT">6</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC3_DUTY_INT">6</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC4_DUTY_INT">10</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC5_DUTY_INT">2</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC6_DUTY_INT">6</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PREDIV_MUXC0">&quot;VCO&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PREDIV_MUXC1">&quot;VCO&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PREDIV_MUXC2">&quot;VCO&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PREDIV_MUXC3">&quot;VCO&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PREDIV_MUXC4">&quot;VCO&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PREDIV_MUXC5">&quot;VCO&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PREDIV_MUXC6">&quot;VCO&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DIVOUT_MUXC0">&quot;DIV&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DIVOUT_MUXC1">&quot;DIV&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DIVOUT_MUXC2">&quot;DIV&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DIVOUT_MUXC3">&quot;DIV&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DIVOUT_MUXC4">&quot;DIV&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DIVOUT_MUXC5">&quot;DIV&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DIVOUT_MUXC6">&quot;DIV&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FIN">&quot;50.000000000&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PD_DIG">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PLL_USR_RST">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="LPF_RES">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="LPF_CAP">13</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ICP_CUR">29</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FRAC_ENABLE">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC0_FRAC_EN">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SSC_ENABLE">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SDM_FRAC">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SSC_RST">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SSC_MODE">&quot;CENTER&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SSC_FREQ_DIV">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SSC_RNGE">242</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="REFCLK_DET_BYP">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC0_FRAC">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FEEDBK_MODE">&quot;NORMAL&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DYN_CPHASE_EN">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DYN_FPHASE_EN">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DYN_PHASE_PATH_SEL">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FBKCLK">&quot;CLKC0_EXT&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FBKCLK_INT">&quot;CLKC0_EXT&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PLL_FEED_TYPE">&quot;EXTERNAL&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PLL_FASTLOOP">&quot;ENABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="WORK_MODE">&quot;USER&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PHASE_PATH_SEL">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PI_FRAC_EN">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLKC0_PI_SHIFT_EN">&quot;DISABLE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PI_OUT_SEL">&quot;NORMAL&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ENABLE_DYNAMIC_CONFIG_DISP">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DISABLE_SIGN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FBMODE_IS_ZERODELAY">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_REQUEST_FREQ_DISP">100.000000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_DIVISION_FACTOR_SET_DISP">12</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_REQUEST_PHASE_SHIFT_DISP">0.0000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_REQUEST_PHASE_SHIFT_UNIT_DISP">&quot;deg&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_REQUEST_DUTY_CYCLE">50.00</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK7_BUFFER">&quot;NONE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="feedback_clk_idx_is0">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="problem_sum">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PLL_V1">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PLL_V2">1</ipxact:configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+    </ipxact:componentInstances>
+    <ipxact:adHocConnections>
+        <ipxact:adHocConnection>
+            <ipxact:name>refclk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst" portRef="refclk"/>
+                <ipxact:externalPortReference portRef="refclk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>clk0_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst" portRef="clk0_out"/>
+                <ipxact:externalPortReference portRef="clk0_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>clk1_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst" portRef="clk1_out"/>
+                <ipxact:externalPortReference portRef="clk1_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>clk4_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst" portRef="clk4_out"/>
+                <ipxact:externalPortReference portRef="clk4_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>clk5_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst" portRef="clk5_out"/>
+                <ipxact:externalPortReference portRef="clk5_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>lock</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst" portRef="lock"/>
+                <ipxact:externalPortReference portRef="lock"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>reset</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst" portRef="reset"/>
+                <ipxact:externalPortReference portRef="reset"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+    </ipxact:adHocConnections>
+    <ipxact:vendorExtensions>
+        <anlogic:device>PH1P35MDG324</anlogic:device>
+        <anlogic:displayname>PLL</anlogic:displayname>
+        <anlogic:ipGenVersion value="168007 2025/07/10">1.0</anlogic:ipGenVersion>
+    </ipxact:vendorExtensions>
+</ipxact:design>

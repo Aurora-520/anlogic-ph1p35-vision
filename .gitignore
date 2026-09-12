@@ -1,0 +1,20 @@
+# Tang Dynasty generated output
+td_project/*_Runs/
+td_project/log/
+td_project/*.log
+td_project/*.logw
+*.jou
+*.wlf
+*.vcd
+*.do
+
+# Local tool state
+*.recent_user_depot.ini
+*.swp
+*.tmp
+Thumbs.db
+
+# Keep empty report directories
+!reports/**/
+!reports/**/.gitkeep
+

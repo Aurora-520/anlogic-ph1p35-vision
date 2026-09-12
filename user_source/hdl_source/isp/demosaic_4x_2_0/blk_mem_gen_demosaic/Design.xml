@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:anlogic="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>anlogic.com</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>design_blk_mem_gen_demosaic</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:componentInstances>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>ram_c36c2ca3b3a7_Inst</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="ip" name="RAMF9F0D0P0" version="1.0"/>
+            <ipxact:configurableElementValues>
+                <ipxact:configurableElementValue referenceId="DEBUG">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PACK">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SP_RAM">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SDP_RAM">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DP_RAM">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DATA_WIDTH_A_c">33</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DATA_DEPTH_A">2048</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DATA_DEPTH_B">2048</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="RESETMODE_A">&quot;ASYNC&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="RESETMODE_B">&quot;ASYNC&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FILL_ALL">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CEA_EN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="OUTREG_DISA">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="OUTREG_WITH_OCEA">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="OUTREG_WITHOUT_OCEA">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ASYNC_RELEASE_Aa">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ASYNC_RELEASE_Bb">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DATA_WIDTH_B_c">33</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CEB_EN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="OUTREG_DISB">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="OUTREG_WITH_OCEB">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="OUTREG_WITHOUT_OCEB">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="OREGSET_Bb">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="x1">&quot;X1=33&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="EM20F">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="EM20S">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ADDR_WIDTH_A">11</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ADDR_WIDTH_B">11</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DATA_WIDTH_A">33</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DATA_WIDTH_B">33</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="BYTE">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="BYTE_A">33</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="BYTE_B">33</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="BYTE_WIDTH_A">33</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="BYTE_WIDTH_B">33</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="WRITEMODE_A">&quot;NORMAL&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="REGMODE_A">&quot;NOREG&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="REGMODE_B">&quot;NOREG&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="WRITEMODE_B">&quot;READBEFOREWRITE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SSROVERCE">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="OREGSET_A">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ASYNC_RELEASE_A">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="OREGSET_B">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ASYNC_RELEASE_B">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="BYTEW">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="COMMON_CLK">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FAST">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="init_none">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Load_mif_file">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="byte_none">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="byte_8">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="byte_10">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="clk_async">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="clk_sync">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ssroverce_dis">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ssroverce_en">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="write_before_read_a">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="read_before_write_a">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="write_disable_read_a">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="write_before_read_b">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="read_before_write_b">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="write_disable_read_b">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CEA_always">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SET_A">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Always_b">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="depth_range_a">&quot;2~16384&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ecc_paa">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="FILL_INIT_VAL">&quot;NONE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="real_range">&quot;1~1152&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="fill_file">&quot;NONE&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ENCODE">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DECODE">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="wea_display">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="WEA_EN">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="wea_port">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="write_before_read_a_dis">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="read_before_write_a_dis">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="reset_synca_dis">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="doa_dis">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="rsta_dis">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ECC_BITERRINJ_dis">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="lmple_dis">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="problem_sum">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SF2">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DR1P">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="PH1P">1</ipxact:configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+    </ipxact:componentInstances>
+    <ipxact:adHocConnections>
+        <ipxact:adHocConnection>
+            <ipxact:name>doa</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ram_c36c2ca3b3a7_Inst" portRef="doa"/>
+                <ipxact:externalPortReference portRef="doa"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>dia</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ram_c36c2ca3b3a7_Inst" portRef="dia"/>
+                <ipxact:externalPortReference portRef="dia"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>addra</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ram_c36c2ca3b3a7_Inst" portRef="addra"/>
+                <ipxact:externalPortReference portRef="addra"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>wea</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ram_c36c2ca3b3a7_Inst" portRef="wea"/>
+                <ipxact:externalPortReference portRef="wea"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>clka</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ram_c36c2ca3b3a7_Inst" portRef="clka"/>
+                <ipxact:externalPortReference portRef="clka"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>dob</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ram_c36c2ca3b3a7_Inst" portRef="dob"/>
+                <ipxact:externalPortReference portRef="dob"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>addrb</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ram_c36c2ca3b3a7_Inst" portRef="addrb"/>
+                <ipxact:externalPortReference portRef="addrb"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>clkb</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ram_c36c2ca3b3a7_Inst" portRef="clkb"/>
+                <ipxact:externalPortReference portRef="clkb"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>dib</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ram_c36c2ca3b3a7_Inst" portRef="dib"/>
+                <ipxact:externalPortReference portRef="dib"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>web</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ram_c36c2ca3b3a7_Inst" portRef="web"/>
+                <ipxact:externalPortReference portRef="web"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+    </ipxact:adHocConnections>
+    <ipxact:vendorExtensions>
+        <anlogic:device>PH1P35MDG324</anlogic:device>
+        <anlogic:speed>-3</anlogic:speed>
+        <anlogic:displayname>RAM</anlogic:displayname>
+        <anlogic:ipGenVersion>1.0</anlogic:ipGenVersion>
+    </ipxact:vendorExtensions>
+</ipxact:design>

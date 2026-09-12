@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:anlogic.com="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>anlogic.com</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>design_w128_d512_fifo</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:componentInstances>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>soft_fifo_al_4057d6b76aa6_Inst</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="ip" name="SOFT_FIFOF6F1D0P0" version="1.0"/>
+            <ipxact:configurableElementValues>
+                <ipxact:configurableElementValue referenceId="ERAM">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DRAM_EN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="BRAM_AUTO">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="BRAM_FAST">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ASYNC">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SYNC">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="RST_ASYNC">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Write_Depth">512</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DATA_WIDTH_W">128</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DATA_WIDTH_R">128</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SHOW_AHEAD_EN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="OUTREG_EN">&quot;NOREG&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="AL_FULL_NUM">253</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="AL_EMPTY_NUM">2</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ADDR_WIDTH_W">9</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ADDR_WIDTH_R">9</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Outreg_enable">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Outreg_disable">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Show_ahead_en">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Show_ahead_dis">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="AL_Full_Range">&quot;3-509&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="AL_Empty_Range">&quot;2-508&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Read_Depth">512</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SYNCHRONOUS_RST_EN">0</ipxact:configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+    </ipxact:componentInstances>
+    <ipxact:adHocConnections>
+        <ipxact:adHocConnection>
+            <ipxact:name>rst</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="soft_fifo_al_4057d6b76aa6_Inst" portRef="rst0"/>
+                <ipxact:externalPortReference portRef="rst"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>clkw</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="soft_fifo_al_4057d6b76aa6_Inst" portRef="clkw"/>
+                <ipxact:externalPortReference portRef="clkw"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>clkr</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="soft_fifo_al_4057d6b76aa6_Inst" portRef="clkr"/>
+                <ipxact:externalPortReference portRef="clkr"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>we</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="soft_fifo_al_4057d6b76aa6_Inst" portRef="we"/>
+                <ipxact:externalPortReference portRef="we"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>di</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="soft_fifo_al_4057d6b76aa6_Inst" portRef="di"/>
+                <ipxact:externalPortReference portRef="di"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>re</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="soft_fifo_al_4057d6b76aa6_Inst" portRef="re"/>
+                <ipxact:externalPortReference portRef="re"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>dout</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="soft_fifo_al_4057d6b76aa6_Inst" portRef="dout"/>
+                <ipxact:externalPortReference portRef="dout"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>valid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="soft_fifo_al_4057d6b76aa6_Inst" portRef="valid"/>
+                <ipxact:externalPortReference portRef="valid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>full_flag</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="soft_fifo_al_4057d6b76aa6_Inst" portRef="full_flag"/>
+                <ipxact:externalPortReference portRef="full_flag"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>empty_flag</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="soft_fifo_al_4057d6b76aa6_Inst" portRef="empty_flag"/>
+                <ipxact:externalPortReference portRef="empty_flag"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>afull</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="soft_fifo_al_4057d6b76aa6_Inst" portRef="afull"/>
+                <ipxact:externalPortReference portRef="afull"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>aempty</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="soft_fifo_al_4057d6b76aa6_Inst" portRef="aempty"/>
+                <ipxact:externalPortReference portRef="aempty"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>wrusedw</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="soft_fifo_al_4057d6b76aa6_Inst" portRef="wrusedw"/>
+                <ipxact:externalPortReference portRef="wrusedw"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>rdusedw</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="soft_fifo_al_4057d6b76aa6_Inst" portRef="rdusedw"/>
+                <ipxact:externalPortReference portRef="rdusedw"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+    </ipxact:adHocConnections>
+    <ipxact:vendorExtensions>
+        <anlogic.com:device>PH1P35MDG324</anlogic.com:device>
+        <anlogic.com:displayname>SOFT FIFO</anlogic.com:displayname>
+        <anlogic.com:ipGenVersion>1.0</anlogic.com:ipGenVersion>
+    </ipxact:vendorExtensions>
+</ipxact:design>

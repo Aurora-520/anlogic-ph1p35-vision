@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:designConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:anlogic="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>anlogic.com</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>designConfig_w40_d512_fifo</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:viewConfiguration>
+        <ipxact:instanceName>soft_fifo_al_2758cdf81c93_Inst</ipxact:instanceName>
+        <ipxact:view viewRef="soft_fifo"/>
+    </ipxact:viewConfiguration>
+    <ipxact:vendorExtensions>
+        <anlogic:displayname>SOFT FIFO</anlogic:displayname>
+        <anlogic:ipGenVersion>1.0</anlogic:ipGenVersion>
+    </ipxact:vendorExtensions>
+</ipxact:designConfiguration>

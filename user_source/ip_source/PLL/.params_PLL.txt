@@ -1,0 +1,433 @@
+FIN_DISP : 50.000000000 : U : En :  : 10.0 : 600.0
+FEEDBK_MODE_DISP : Normal : U : En : Normal;;Source synchronous;;Zero delay buffer;;No compensation :  : 
+FIN_UNIT_DISP : MHz : U : En : MHz;;ns :  : 
+FEEDBK_CLK_DISP : CLK0 : U : En : CLK0;;CLK1;;CLK2;;CLK3;;CLK4;;CLK5;;CLK6 :  : 
+SSC_ENABLE_DISP : 0 : U : Dis :  :  : 
+SSC_FREQUENCY_DISP : 30 : U : Dis :  : 25 : 250
+SSC_AMP_DISP : 0.0 : U : Dis :  : 0 : 3
+SSC_MODE_DISP : Down : U : Dis : Down;;Center;;Up :  : 
+ENABLE_RESET_DISP : 1 : U : En :  :  : 
+ENABLE_POWER_DOWN_DISP : 0 : U : En :  :  : 
+ENABLE_CLOCK_RESET_DISP : 0 : U : En :  :  : 
+ENABLE_PLL_LOCK_DISP : 1 : U : En :  :  : 
+ENABLE_DYNAMIC_COARSE_PS_DISP : 0 : U : En :  :  : 
+ENABLE_DYNAMIC_FINE_PS_DISP : 0 : U : En :  :  : 
+CONFIG_MODE_DISP : Clock Frequency : U : En : Clock Frequency;;Parameter Setting :  : 
+CLOCK_DIVISION_FACTOR_SET_DISP : 1 : U : En :  : 1 : 1
+CLOCK_MULT_FACTOR_SET_DISP : 2 : U : En :  : 2 : 2
+VCO_FRACTIONAL_ENABLE_DISP : 0 : U : Dis :  :  : 
+VCO_FRACTIONAL_AMP_SET_DISP : 0.00000000 : U : Dis :  : 0.0 : 0.0
+C0_FRACTIONAL_ENABLE_DISP : 0 : U : Dis :  :  : 
+CLK0_ENABLE_DISP : ENABLE : U : En : ENABLE :  : 
+CLK0_REQUEST_FREQ_DISP : 100.000000 : U : En :  : 6.25 : 1000
+CLK0_REQUEST_FREQ_UNIT_DISP : MHz : U : En : MHz;;ns :  : 
+CLK0_DIVISION_FACTOR_SET_DISP : 15 : U : En :  : 15 : 15
+CLK0_ENABLE_CLOCK_DISP : 0 : U : En :  :  : 
+CLK0_USE_B_CLOCK_DISP : 0 : U : En :  :  : 
+CLK0_REQUEST_DUTY_CYCLE : 50.00 : U : En :  : 0 : 99.99
+CLK0_REQUEST_PHASE_SHIFT_UNIT_DISP : deg : U : Dis : deg;;ns :  : 
+CLK0_REQUEST_PHASE_SHIFT_DISP : 0.0000 : U : Dis :  : 0 : 359.9999
+CLK1_ENABLE_DISP : ENABLE : U : En : ENABLE;;DISABLE :  : 
+CLK1_REQUEST_FREQ_DISP : 24.000000 : U : En :  : 6.25 : 1000
+CLK1_REQUEST_FREQ_UNIT_DISP : MHz : U : En : MHz;;ns :  : 
+CLK1_DIVISION_FACTOR_SET_DISP : 63 : U : En :  : 63 : 63
+CLK1_REQUEST_PHASE_SHIFT_DISP : 0.0000 : U : En :  : 0 : 359.9999
+CLK1_REQUEST_PHASE_SHIFT_UNIT_DISP : deg : U : En : deg;;ns :  : 
+CLK1_REQUEST_DUTY_CYCLE : 50.00 : U : En :  : 0 : 99.99
+CLK1_USE_B_CLOCK_DISP : 0 : U : En :  :  : 
+CLK1_ENABLE_CLOCK_DISP : 0 : U : En :  :  : 
+CLK2_ENABLE_DISP : DISABLE : U : En : ENABLE;;DISABLE :  : 
+CLK2_REQUEST_FREQ_DISP : 51.200000 : U : Dis :  : 6.25 : 1000
+CLK3_ENABLE_DISP : DISABLE : U : En : ENABLE;;DISABLE :  : 
+CLK3_REQUEST_FREQ_DISP : 10.000000 : U : Dis :  : 6.25 : 1000
+CLK4_ENABLE_DISP : ENABLE : U : En : ENABLE;;DISABLE :  : 
+CLK4_REQUEST_FREQ_DISP : 74.250000 : U : En :  : 6.25 : 1000
+CLK5_ENABLE_DISP : ENABLE : U : En : ENABLE;;DISABLE :  : 
+CLK5_REQUEST_FREQ_DISP : 371.250000 : U : En :  : 6.25 : 1000
+CLK6_ENABLE_DISP : DISABLE : U : En : ENABLE;;DISABLE :  : 
+CLK6_REQUEST_FREQ_DISP : 100.000000 : U : Dis :  : 6.25 : 1000
+CLK7_ENABLE_DISP : DISABLE : G : En :  :  : 
+CLK7_ENABLE_CLOCK_DISP : 0 : G : En :  :  : 
+CLK7_USE_B_CLOCK_DISP : 0 : G : En :  :  : 
+CLK6_ENABLE_CLOCK_DISP : 0 : U : Dis :  :  : 
+CLK6_USE_B_CLOCK_DISP : 0 : U : Dis :  :  : 
+CLK5_ENABLE_CLOCK_DISP : 0 : U : En :  :  : 
+CLK5_USE_B_CLOCK_DISP : 0 : U : En :  :  : 
+CLK4_ENABLE_CLOCK_DISP : 0 : U : En :  :  : 
+CLK4_USE_B_CLOCK_DISP : 0 : U : En :  :  : 
+CLK3_ENABLE_CLOCK_DISP : 0 : U : Dis :  :  : 
+CLK3_USE_B_CLOCK_DISP : 0 : U : Dis :  :  : 
+CLK2_ENABLE_CLOCK_DISP : 0 : U : Dis :  :  : 
+CLK2_USE_B_CLOCK_DISP : 0 : U : Dis :  :  : 
+CLK2_REQUEST_FREQ_UNIT_DISP : MHz : U : Dis : MHz;;ns :  : 
+CLK3_REQUEST_FREQ_UNIT_DISP : MHz : U : Dis : MHz;;ns :  : 
+CLK4_REQUEST_FREQ_UNIT_DISP : MHz : U : En : MHz;;ns :  : 
+CLK5_REQUEST_FREQ_UNIT_DISP : MHz : U : En : MHz;;ns :  : 
+CLK6_REQUEST_FREQ_UNIT_DISP : MHz : U : Dis : MHz;;ns :  : 
+CLK7_REQUEST_FREQ_UNIT_DISP : MHz : G : En :  :  : 
+CLK2_DIVISION_FACTOR_SET_DISP : 12 : U : Dis :  : 12 : 12
+CLK3_DIVISION_FACTOR_SET_DISP : 12 : U : Dis :  : 12 : 12
+CLK4_DIVISION_FACTOR_SET_DISP : 20 : U : En :  : 20 : 20
+CLK5_DIVISION_FACTOR_SET_DISP : 4 : U : En :  : 4 : 4
+CLK6_DIVISION_FACTOR_SET_DISP : 12 : U : Dis :  : 12 : 12
+CLK2_REQUEST_PHASE_SHIFT_DISP : 0.0000 : U : Dis :  : 0 : 359.9999
+CLK3_REQUEST_PHASE_SHIFT_DISP : 0.0000 : U : Dis :  : 0 : 359.9999
+CLK4_REQUEST_PHASE_SHIFT_DISP : 0.0000 : U : En :  : 0 : 359.9999
+CLK5_REQUEST_PHASE_SHIFT_DISP : 0.0000 : U : En :  : 0 : 359.9999
+CLK6_REQUEST_PHASE_SHIFT_DISP : 0.0000 : U : Dis :  : 0 : 359.9999
+CLK2_REQUEST_PHASE_SHIFT_UNIT_DISP : deg : U : Dis : deg;;ns :  : 
+CLK3_REQUEST_PHASE_SHIFT_UNIT_DISP : deg : U : Dis : deg;;ns :  : 
+CLK4_REQUEST_PHASE_SHIFT_UNIT_DISP : deg : U : En : deg;;ns :  : 
+CLK5_REQUEST_PHASE_SHIFT_UNIT_DISP : deg : U : En : deg;;ns :  : 
+CLK6_REQUEST_PHASE_SHIFT_UNIT_DISP : deg : U : Dis : deg;;ns :  : 
+CLK2_REQUEST_DUTY_CYCLE : 50.00 : U : Dis :  : 0 : 99.99
+CLK3_REQUEST_DUTY_CYCLE : 50.00 : U : Dis :  : 0 : 99.99
+CLK4_REQUEST_DUTY_CYCLE : 50.00 : U : En :  : 0 : 99.99
+CLK5_REQUEST_DUTY_CYCLE : 50.00 : U : En :  : 0 : 99.99
+CLK6_REQUEST_DUTY_CYCLE : 50.00 : U : Dis :  : 0 : 99.99
+BandWidth_setting_DISP : High : U : En : High :  : 
+feedback_clk_idx : 0 : G : En :  :  : 
+feedback_mode : NORMAL : G : En :  :  : 
+UseClkFreqSetting : 1 : G : En :  :  : 
+CLK0_FORCE_SET : 1 : G : En :  :  : 
+CLK1_FORCE_SET : 0 : G : En :  :  : 
+CLK2_FORCE_SET : 0 : G : En :  :  : 
+CLK3_FORCE_SET : 0 : G : En :  :  : 
+CLK4_FORCE_SET : 0 : G : En :  :  : 
+CLK5_FORCE_SET : 0 : G : En :  :  : 
+CLK6_FORCE_SET : 0 : G : En :  :  : 
+CLK7_FORCE_SET : 0 : G : En :  :  : 
+CLK0_ENABLE_CTRL : 1 : G : En :  :  : 
+CLK1_ENABLE_CTRL : 1 : G : En :  :  : 
+CLK2_ENABLE_CTRL : 0 : G : En :  :  : 
+CLK3_ENABLE_CTRL : 0 : G : En :  :  : 
+CLK4_ENABLE_CTRL : 1 : G : En :  :  : 
+CLK5_ENABLE_CTRL : 1 : G : En :  :  : 
+CLK6_ENABLE_CTRL : 0 : G : En :  :  : 
+CLK7_ENABLE_CTRL : 0 : G : En :  :  : 
+FIN_Min : 10.000000 : G : En :  :  : 
+FIN_Max : 600.000000 : G : En :  :  : 
+DIV_FACTOR_Min : 1 : G : En :  :  : 
+DIV_FACTOR_Max : 1 : G : En :  :  : 
+MULT_FACTOR_Min : 2 : G : En :  :  : 
+MULT_FACTOR_Max : 2 : G : En :  :  : 
+VCO_FRAC_AMP_Min : 0.00000000 : G : En :  :  : 
+VCO_FRAC_AMP_Max : 0.00000000 : G : En :  :  : 
+CLK0_DIV_FACTOR_Min : 15 : G : En :  :  : 
+CLK0_DIV_FACTOR_Max : 15 : G : En :  :  : 
+CLK1_DIV_FACTOR_Min : 63 : G : En :  :  : 
+CLK1_DIV_FACTOR_Max : 63 : G : En :  :  : 
+CLK2_DIV_FACTOR_Min : 12 : G : En :  :  : 
+CLK2_DIV_FACTOR_Max : 12 : G : En :  :  : 
+CLK3_DIV_FACTOR_Min : 12 : G : En :  :  : 
+CLK3_DIV_FACTOR_Max : 12 : G : En :  :  : 
+CLK4_DIV_FACTOR_Min : 20 : G : En :  :  : 
+CLK4_DIV_FACTOR_Max : 20 : G : En :  :  : 
+CLK5_DIV_FACTOR_Min : 4 : G : En :  :  : 
+CLK5_DIV_FACTOR_Max : 4 : G : En :  :  : 
+CLK6_DIV_FACTOR_Min : 12 : G : En :  :  : 
+CLK6_DIV_FACTOR_Max : 12 : G : En :  :  : 
+VCO_FRACTIONAL_ENABLE_GEN : 0 : G : En :  :  : 
+CLK0_FREQ_Min : 6.25 : G : En :  :  : 
+CLK0_FREQ_Max : 1000 : G : En :  :  : 
+CLK1_FREQ_Min : 6.25 : G : En :  :  : 
+CLK2_FREQ_Min : 6.25 : G : En :  :  : 
+CLK3_FREQ_Min : 6.25 : G : En :  :  : 
+CLK4_FREQ_Min : 6.25 : G : En :  :  : 
+CLK5_FREQ_Min : 6.25 : G : En :  :  : 
+CLK6_FREQ_Min : 6.25 : G : En :  :  : 
+CLK7_FREQ_Min : 6.25 : G : En :  :  : 
+CLK1_FREQ_Max : 1000 : G : En :  :  : 
+CLK2_FREQ_Max : 1000 : G : En :  :  : 
+CLK3_FREQ_Max : 1000 : G : En :  :  : 
+CLK4_FREQ_Max : 1000 : G : En :  :  : 
+CLK5_FREQ_Max : 1000 : G : En :  :  : 
+CLK6_FREQ_Max : 1000 : G : En :  :  : 
+CLK7_FREQ_Max : 1000 : G : En :  :  : 
+CLK0_PS_Max : 359.9999 : G : En :  :  : 
+CLK1_PS_Max : 359.9999 : G : En :  :  : 
+CLK2_PS_Max : 359.9999 : G : En :  :  : 
+CLK3_PS_Max : 359.9999 : G : En :  :  : 
+CLK4_PS_Max : 359.9999 : G : En :  :  : 
+CLK5_PS_Max : 359.9999 : G : En :  :  : 
+CLK6_PS_Max : 359.9999 : G : En :  :  : 
+CLK7_PS_Max : 359.9999 : G : En :  :  : 
+CLK0_DC_Max : 99.99 : G : En :  :  : 
+CLK1_DC_Max : 99.99 : G : En :  :  : 
+CLK2_DC_Max : 99.99 : G : En :  :  : 
+CLK3_DC_Max : 99.99 : G : En :  :  : 
+CLK4_DC_Max : 99.99 : G : En :  :  : 
+CLK5_DC_Max : 99.99 : G : En :  :  : 
+CLK6_DC_Max : 99.99 : G : En :  :  : 
+CLK7_DC_Max : 99.99 : G : En :  :  : 
+CLK0_BUFFER : BUFG : U : En : BUFG :  : 
+CLK1_BUFFER : NONE : U : En : BUFG;;IOCLK;;LCLK;;MLCLK;;HCLK;;SCLK;;NONE :  : 
+CLK2_BUFFER : NONE : U : Dis : BUFG;;IOCLK;;LCLK;;MLCLK;;HCLK;;SCLK;;NONE :  : 
+CLK3_BUFFER : NONE : U : Dis : BUFG;;IOCLK;;LCLK;;MLCLK;;HCLK;;SCLK;;NONE :  : 
+CLK4_BUFFER : NONE : U : En : BUFG;;IOCLK;;LCLK;;MLCLK;;HCLK;;SCLK;;NONE :  : 
+CLK5_BUFFER : NONE : U : En : BUFG;;IOCLK;;LCLK;;MLCLK;;HCLK;;SCLK;;NONE :  : 
+CLK6_BUFFER : NONE : U : Dis : BUFG;;IOCLK;;LCLK;;MLCLK;;HCLK;;SCLK;;NONE :  : 
+REQ_CLK_ENABLE_SUM : 1 1 0 0 1 1 0 0 : G : En :  :  : 
+REQ_FREQ_SUM : 100.000000 24.000000 100.0000 100.0000 74.250000 371.250000 100.0000 100.0000 : G : En :  :  : 
+REQ_FREQ_UNIT_SUM : MHz MHz MHz MHz MHz MHz MHz MHz : G : En :  :  : 
+REQ_PHASE_SHIFT_SUM : 0.0000 0.0000 0 0 0.0000 0.0000 0 0 : G : En :  :  : 
+REQ_PHASE_SHIFT_UNIT_SUM : deg deg deg deg deg deg deg deg : G : En :  :  : 
+REQ_DUTY_CYCLE_SUM : 50.00 50.00 50.00 50.00 50.00 50.00 50.00 50.00 : G : En :  :  : 
+REQ_POST_SCALE_COUNTER_SUM : 15 63 10 10 20 4 10 10 : G : En :  :  : 
+FIN_FREQ_MHz : 50.000000000 : G : En :  :  : 
+DIVIDER_CALC : 15 63 12 12 20 4 12 12  1500.0 50.0 1 2 : G : En :  :  : 
+post_scale_counter : 15 63 12 12 20 4 12 12 : G : En :  :  : 
+div_factor : 1 : G : En :  :  : 
+mul_factor : 2 : G : En :  :  : 
+vref : 50.0 : G : En :  :  : 
+vco : 1500.0 : G : En :  :  : 
+DUTY_CYCLE_CALC : 50.00 50.00 50.00 50.00 50.00 50.00 50.00 50.00 0 0 0 0 0 0 0 0 : G : En :  :  : 
+PHASE_SHIFT_CALC : 14 62 0 0 19 3 0 0 0 0 0 0 0 0 0 0 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 : G : En :  :  : 
+VCO_FRACTION_CALC_AUTO : 1500.0 0.0 0 2 : G : En :  :  : 
+VCO_FRACTION_CALC_MANUAL : 1500.0 0.0 0 2 : G : En :  :  : 
+C0_FRACTIONAL_CALC_AUTO : 0.000 0 100.000000 : G : En :  :  : 
+C0_FRACTIONAL_CALC_MANUAL : 0.000 0 100.000000 : G : En :  :  : 
+SSC_CALC : 0 0 : G : En :  :  : 
+POST_SCALE_COUNTER_DIVIDER_CALC_GEN : 15 63 12 12 20 4 12 12 : G : En :  :  : 
+VCO_FREQ_DIVIDER_CALC_GEN : 1500.0 : G : En :  :  : 
+VREF_FREQ_DIVIDER_CALC_GEN : 50.0 : G : En :  :  : 
+PLL_DIV_FACTOR_GEN : 1 : G : En :  :  : 
+PLL_MULT_FACTOR_GEN : 2 : G : En :  :  : 
+ACTUAL_DUTY_CYCLE_GEN : 50.00 50.00 50.00 50.00 50.00 50.00 50.00 50.00 : G : En :  :  : 
+MODULATE_DUTY_CYCLE_GEN : 0 0 0 0 0 0 0 0 : G : En :  :  : 
+CPHASE_GEN : 14 62 0 0 19 3 0 0 : G : En :  :  : 
+FPHASE_GEN : 0 0 0 0 0 0 0 0 : G : En :  :  : 
+ACTUAL_PHASE_SHIFT_GEN : 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 : G : En :  :  : 
+VCO_FREQ_FRACTIONAL_CALC_GEN : 1500.0 : G : En :  :  : 
+VCO_FRACTIONAL_AMPLITUDE_GEN : 0.0 : G : En :  :  : 
+FREQ_OFFSET_GEN : 0 : G : En :  :  : 
+mul_factor_vco_fractional : 2 : G : En :  :  : 
+C0_FRACTIONAL_AMPLITUDE_GEN : 0.000 : G : En :  :  : 
+C0_FRACTIONAL_PARAM_GEN : 0 : G : En :  :  : 
+C0_ACTUAL_FREQ_GEN : 100.000000 : G : En :  :  : 
+SSC_FREQ_DIV_GEN : 0 : G : En :  :  : 
+SSC_RNGE_GEN : 0 : G : En :  :  : 
+ACTUAL_FREQ_CALC : 100.000000 23.809524 125.000000 125.000000 75.000000 375.000000 125.000000 125.000000 : G : En :  :  : 
+CLOCK_MULT_FACTOR_DISP : 2 : G : En :  :  : 
+CLOCK_DIVISION_FACTOR_DISP : 1 : G : En :  :  : 
+VCO_FRACTIONAL_AMP_DISP : 0.00000000 : G : En :  :  : 
+C0_FRACTIONAL_AMP_DISP : 0.000 : G : En :  :  : 
+VCO_FREQ_DISP : 1500.0000 : G : En :  :  : 
+VREF_FREQ_DISP : 50.0000 : G : En :  :  : 
+CLK0_DIVISION_FACTOR_DISP : 15 : G : En :  :  : 
+CLK1_DIVISION_FACTOR_DISP : 63 : G : En :  :  : 
+CLK2_DIVISION_FACTOR_DISP : 12 : G : Dis :  :  : 
+CLK3_DIVISION_FACTOR_DISP : 12 : G : Dis :  :  : 
+CLK4_DIVISION_FACTOR_DISP : 20 : G : En :  :  : 
+CLK5_DIVISION_FACTOR_DISP : 4 : G : En :  :  : 
+CLK6_DIVISION_FACTOR_DISP : 12 : G : Dis :  :  : 
+CLK7_DIVISION_FACTOR_DISP : 12 : G : En :  :  : 
+CLK0_ACTUAL_FREQ_DISP : 100.000000 : G : En :  :  : 
+CLK2_ACTUAL_FREQ_DISP : 125.000000 : G : Dis :  :  : 
+CLK3_ACTUAL_FREQ_DISP : 125.000000 : G : Dis :  :  : 
+CLK4_ACTUAL_FREQ_DISP : 75.000000 : G : En :  :  : 
+CLK5_ACTUAL_FREQ_DISP : 375.000000 : G : En :  :  : 
+CLK6_ACTUAL_FREQ_DISP : 125.000000 : G : Dis :  :  : 
+CLK7_ACTUAL_FREQ_DISP : 125.000000 : G : En :  :  : 
+CLK0_ACTUAL_PHASE_SHIFT_DISP : 0.0000 : G : Dis :  :  : 
+CLK1_ACTUAL_PHASE_SHIFT_DISP : 0.0000 : G : En :  :  : 
+CLK2_ACTUAL_PHASE_SHIFT_DISP : 0.0000 : G : Dis :  :  : 
+CLK3_ACTUAL_PHASE_SHIFT_DISP : 0.0000 : G : Dis :  :  : 
+CLK4_ACTUAL_PHASE_SHIFT_DISP : 0.0000 : G : En :  :  : 
+CLK5_ACTUAL_PHASE_SHIFT_DISP : 0.0000 : G : En :  :  : 
+CLK6_ACTUAL_PHASE_SHIFT_DISP : 0.0000 : G : Dis :  :  : 
+CLK7_ACTUAL_PHASE_SHIFT_DISP : 0.0000 : G : En :  :  : 
+CLK0_ACTUAL_DUTY_CYCLE : 50.00 : G : En :  :  : 
+CLK1_ACTUAL_DUTY_CYCLE : 50.00 : G : En :  :  : 
+CLK2_ACTUAL_DUTY_CYCLE : 50.00 : G : Dis :  :  : 
+CLK3_ACTUAL_DUTY_CYCLE : 50.00 : G : Dis :  :  : 
+CLK4_ACTUAL_DUTY_CYCLE : 50.00 : G : En :  :  : 
+CLK5_ACTUAL_DUTY_CYCLE : 50.00 : G : En :  :  : 
+CLK6_ACTUAL_DUTY_CYCLE : 50.00 : G : Dis :  :  : 
+CLK7_ACTUAL_DUTY_CYCLE : 50.00 : G : En :  :  : 
+Input_Frequency_DISP_SUM : 50.000000000 : G : En :  :  : 
+Feedback_mode_DISP_SUM : Normal : G : En :  :  : 
+Clock_Used_DISP_SUM : CLK0 : G : En :  :  : 
+Enable_Power_Down_DISP_SUM : DISABLE : G : En :  :  : 
+Enable_Reset_DISP_SUM : ENABLE : G : En :  :  : 
+Enable_Clock_out_Reset_DISP_SUM : DISABLE : G : En :  :  : 
+Enable_PLL_Lock_DISP_SUM : ENABLE : G : En :  :  : 
+Enable_PLL_Dynamic_Coarse_phase_shift_DISP_SUM : DISABLE : G : En :  :  : 
+Enable_PLL_Dynamic_Fine_phase_shift_DISP_SUM : DISABLE : G : En :  :  : 
+BandWidth_setting_DISP_SUM : High : G : En :  :  : 
+CLK0_FREQ_DISP_SUM : 100.000000 : G : En :  :  : 
+CLK1_FREQ_DISP_SUM : 23.809524 : G : En :  :  : 
+CLK2_FREQ_DISP_SUM : 125.000000 : G : Dis :  :  : 
+CLK3_FREQ_DISP_SUM : 125.000000 : G : Dis :  :  : 
+CLK4_FREQ_DISP_SUM : 75.000000 : G : En :  :  : 
+CLK5_FREQ_DISP_SUM : 375.000000 : G : En :  :  : 
+CLK6_FREQ_DISP_SUM : 125.000000 : G : Dis :  :  : 
+CLK7_FREQ_DISP_SUM : 125.000000 : G : En :  :  : 
+CLK0_PS_DISP_SUM : 0.0000 : G : En :  :  : 
+CLK1_PS_DISP_SUM : 0.0000 : G : En :  :  : 
+CLK2_PS_DISP_SUM : 0.0000 : G : Dis :  :  : 
+CLK3_PS_DISP_SUM : 0.0000 : G : Dis :  :  : 
+CLK4_PS_DISP_SUM : 0.0000 : G : En :  :  : 
+CLK5_PS_DISP_SUM : 0.0000 : G : En :  :  : 
+CLK6_PS_DISP_SUM : 0.0000 : G : Dis :  :  : 
+CLK7_PS_DISP_SUM : 0.0000 : G : En :  :  : 
+CLK0_DC_DISP_SUM : 50.00 : G : En :  :  : 
+CLK1_DC_DISP_SUM : 50.00 : G : En :  :  : 
+CLK2_DC_DISP_SUM : 50.00 : G : Dis :  :  : 
+CLK3_DC_DISP_SUM : 50.00 : G : Dis :  :  : 
+CLK4_DC_DISP_SUM : 50.00 : G : En :  :  : 
+CLK5_DC_DISP_SUM : 50.00 : G : En :  :  : 
+CLK6_DC_DISP_SUM : 50.00 : G : Dis :  :  : 
+CLK7_DC_DISP_SUM : 50.00 : G : En :  :  : 
+CLK0_DF_DISP_SUM : 15 : G : En :  :  : 
+CLK1_DF_DISP_SUM : 63 : G : En :  :  : 
+CLK2_DF_DISP_SUM : 12 : G : Dis :  :  : 
+CLK3_DF_DISP_SUM : 12 : G : Dis :  :  : 
+CLK4_DF_DISP_SUM : 20 : G : En :  :  : 
+CLK5_DF_DISP_SUM : 4 : G : En :  :  : 
+CLK6_DF_DISP_SUM : 12 : G : Dis :  :  : 
+CLK7_DF_DISP_SUM : 12 : G : En :  :  : 
+CLK0_CLOCK_B_DISP_SUM : DISABLE : G : En :  :  : 
+CLK1_CLOCK_B_DISP_SUM : DISABLE : G : En :  :  : 
+CLK2_CLOCK_B_DISP_SUM : DISABLE : G : Dis :  :  : 
+CLK3_CLOCK_B_DISP_SUM : DISABLE : G : Dis :  :  : 
+CLK4_CLOCK_B_DISP_SUM : DISABLE : G : En :  :  : 
+CLK5_CLOCK_B_DISP_SUM : DISABLE : G : En :  :  : 
+CLK6_CLOCK_B_DISP_SUM : DISABLE : G : Dis :  :  : 
+CLK7_CLOCK_B_DISP_SUM : DISABLE : G : En :  :  : 
+CLK0_CLOCK_ENABLE_DISP_SUM : DISABLE : G : En :  :  : 
+CLK1_CLOCK_ENABLE_DISP_SUM : DISABLE : G : En :  :  : 
+CLK2_CLOCK_ENABLE_DISP_SUM : DISABLE : G : Dis :  :  : 
+CLK3_CLOCK_ENABLE_DISP_SUM : DISABLE : G : Dis :  :  : 
+CLK4_CLOCK_ENABLE_DISP_SUM : DISABLE : G : En :  :  : 
+CLK5_CLOCK_ENABLE_DISP_SUM : DISABLE : G : En :  :  : 
+CLK6_CLOCK_ENABLE_DISP_SUM : DISABLE : G : Dis :  :  : 
+CLK7_CLOCK_ENABLE_DISP_SUM : DISABLE : G : En :  :  : 
+CLK0_BUFG_DISP_SUM : BUFG : G : En :  :  : 
+CLK1_BUFG_DISP_SUM : NONE : G : En :  :  : 
+CLK2_BUFG_DISP_SUM : NONE : G : Dis :  :  : 
+CLK3_BUFG_DISP_SUM : NONE : G : Dis :  :  : 
+CLK4_BUFG_DISP_SUM : NONE : G : En :  :  : 
+CLK5_BUFG_DISP_SUM : NONE : G : En :  :  : 
+CLK6_BUFG_DISP_SUM : NONE : G : Dis :  :  : 
+CLK7_BUFG_DISP_SUM : NONE : G : En :  :  : 
+BANDWIDTH_CALC : 13 29 0 0 : G : En :  :  : 
+Charge_pump_current_DISP_SUM : 29 : G : En :  :  : 
+Loop_filter_resistance_DISP_SUM : 0 : G : En :  :  : 
+Loop_filter_capactiance_DISP_SUM : 13 : G : En :  :  : 
+Charge_pump_current_DISP : 29 : G : En :  :  : 
+Loop_filter_resistance_DISP : 0 : G : En :  :  : 
+Loop_filter_capactiance_DISP : 13 : G : En :  :  : 
+SSC_RESET_DISP : 0 : U : Dis :  :  : 
+FBMODE_IS_NOCOMP : 0 : G : En :  :  : 
+SSC_ENABLE_GEN : 0 : G : En :  :  : 
+C0_FRACTIONAL_ENABLE_GEN : 0 : G : En :  :  : 
+CLK1_ACTUAL_FREQ_DISP : 23.809524 : G : En :  :  : 
+REFCLK_DIV : 1 : G : En :  :  : 
+FBCLK_DIV : 2 : G : En :  :  : 
+CLKC0_ENABLE : ENABLE : G : En :  :  : 
+CLKC1_ENABLE : ENABLE : G : En :  :  : 
+CLKC2_ENABLE : DISABLE : G : En :  :  : 
+CLKC3_ENABLE : DISABLE : G : En :  :  : 
+CLKC4_ENABLE : ENABLE : G : En :  :  : 
+CLKC5_ENABLE : ENABLE : G : En :  :  : 
+CLKC6_ENABLE : DISABLE : G : En :  :  : 
+CLKC0_DIV : 15 : G : En :  :  : 
+CLKC1_DIV : 63 : G : En :  :  : 
+CLKC2_DIV : 12 : G : En :  :  : 
+CLKC3_DIV : 12 : G : En :  :  : 
+CLKC4_DIV : 20 : G : En :  :  : 
+CLKC5_DIV : 4 : G : En :  :  : 
+CLKC6_DIV : 12 : G : En :  :  : 
+CLKC0_CPHASE : 14 : G : En :  :  : 
+CLKC1_CPHASE : 62 : G : En :  :  : 
+CLKC2_CPHASE : 0 : G : En :  :  : 
+CLKC3_CPHASE : 0 : G : En :  :  : 
+CLKC4_CPHASE : 19 : G : En :  :  : 
+CLKC5_CPHASE : 3 : G : En :  :  : 
+CLKC6_CPHASE : 0 : G : En :  :  : 
+CLKC0_FPHASE : 0 : G : En :  :  : 
+CLKC1_FPHASE : 0 : G : En :  :  : 
+CLKC2_FPHASE : 0 : G : En :  :  : 
+CLKC3_FPHASE : 0 : G : En :  :  : 
+CLKC4_FPHASE : 0 : G : En :  :  : 
+CLKC5_FPHASE : 0 : G : En :  :  : 
+CLKC6_FPHASE : 0 : G : En :  :  : 
+CLKC0_FPHASE_RSTSEL : 0 : G : En :  :  : 
+CLKC1_FPHASE_RSTSEL : 0 : G : En :  :  : 
+CLKC2_FPHASE_RSTSEL : 0 : G : En :  :  : 
+CLKC3_FPHASE_RSTSEL : 0 : G : En :  :  : 
+CLKC4_FPHASE_RSTSEL : 0 : G : En :  :  : 
+CLKC5_FPHASE_RSTSEL : 0 : G : En :  :  : 
+CLKC6_FPHASE_RSTSEL : 0 : G : En :  :  : 
+CLKC0_DUTY50 : ENABLE : G : En :  :  : 
+CLKC1_DUTY50 : ENABLE : G : En :  :  : 
+CLKC2_DUTY50 : ENABLE : G : En :  :  : 
+CLKC3_DUTY50 : ENABLE : G : En :  :  : 
+CLKC4_DUTY50 : ENABLE : G : En :  :  : 
+CLKC5_DUTY50 : ENABLE : G : En :  :  : 
+CLKC6_DUTY50 : ENABLE : G : En :  :  : 
+CLKC0_DUTY_INT : 8 : G : En :  :  : 
+CLKC1_DUTY_INT : 32 : G : En :  :  : 
+CLKC2_DUTY_INT : 6 : G : En :  :  : 
+CLKC3_DUTY_INT : 6 : G : En :  :  : 
+CLKC4_DUTY_INT : 10 : G : En :  :  : 
+CLKC5_DUTY_INT : 2 : G : En :  :  : 
+CLKC6_DUTY_INT : 6 : G : En :  :  : 
+PREDIV_MUXC0 : VCO : G : En :  :  : 
+PREDIV_MUXC1 : VCO : G : En :  :  : 
+PREDIV_MUXC2 : VCO : G : En :  :  : 
+PREDIV_MUXC3 : VCO : G : En :  :  : 
+PREDIV_MUXC4 : VCO : G : En :  :  : 
+PREDIV_MUXC5 : VCO : G : En :  :  : 
+PREDIV_MUXC6 : VCO : G : En :  :  : 
+DIVOUT_MUXC0 : DIV : G : En :  :  : 
+DIVOUT_MUXC1 : DIV : G : En :  :  : 
+DIVOUT_MUXC2 : DIV : G : En :  :  : 
+DIVOUT_MUXC3 : DIV : G : En :  :  : 
+DIVOUT_MUXC4 : DIV : G : En :  :  : 
+DIVOUT_MUXC5 : DIV : G : En :  :  : 
+DIVOUT_MUXC6 : DIV : G : En :  :  : 
+FIN : 50.000000000 : G : En :  :  : 
+PD_DIG : ENABLE : G : En :  :  : 
+PLL_USR_RST : ENABLE : G : En :  :  : 
+LPF_RES : 0 : G : En :  :  : 
+LPF_CAP : 13 : G : En :  :  : 
+ICP_CUR : 29 : G : En :  :  : 
+FRAC_ENABLE : DISABLE : G : En :  :  : 
+CLKC0_FRAC_EN : DISABLE : G : En :  :  : 
+SSC_ENABLE : DISABLE : G : En :  :  : 
+SDM_FRAC : 0 : G : En :  :  : 
+SSC_RST : DISABLE : G : En :  :  : 
+SSC_MODE : CENTER : G : En :  :  : 
+SSC_FREQ_DIV : 0 : G : En :  :  : 
+SSC_RNGE : 242 : G : En :  :  : 
+REFCLK_DET_BYP : DISABLE : G : En :  :  : 
+CLKC0_FRAC : 0 : G : En :  :  : 
+FEEDBK_MODE : NORMAL : G : En :  :  : 
+DYN_CPHASE_EN : DISABLE : G : En :  :  : 
+DYN_FPHASE_EN : DISABLE : G : En :  :  : 
+DYN_PHASE_PATH_SEL : DISABLE : G : En :  :  : 
+FBKCLK : CLKC0_EXT : G : En :  :  : 
+FBKCLK_INT : CLKC0_EXT : G : En :  :  : 
+PLL_FEED_TYPE : EXTERNAL : G : En :  :  : 
+PLL_FASTLOOP : ENABLE : G : En :  :  : 
+WORK_MODE : USER : G : En :  :  : 
+PHASE_PATH_SEL : 0 : G : En :  :  : 
+PI_FRAC_EN : DISABLE : G : En :  :  : 
+CLKC0_PI_SHIFT_EN : DISABLE : G : En :  :  : 
+PI_OUT_SEL : NORMAL : G : En :  :  : 
+ENABLE_DYNAMIC_CONFIG_DISP : 0 : U : En :  :  : 
+DISABLE_SIGN : 0 : G : En :  :  : 
+FBMODE_IS_ZERODELAY : 0 : G : En :  :  : 
+C0_FRACTIONAL_AMP_SET_DISP : 0.000 : U : Dis : 0.000 :  : 
+CLK7_REQUEST_FREQ_DISP : 100.000000 : G : En :  :  : 
+CLK7_DIVISION_FACTOR_SET_DISP : 12 : G : En :  :  : 
+CLK7_REQUEST_PHASE_SHIFT_DISP : 0.0000 : G : En :  :  : 
+CLK7_REQUEST_PHASE_SHIFT_UNIT_DISP : deg : G : En :  :  : 
+CLK7_REQUEST_DUTY_CYCLE : 50.00 : G : En :  :  : 
+CLK7_BUFFER : NONE : G : En :  :  : 
+feedback_clk_idx_is0 : 1 : G : En :  :  : 
+problem_sum : 0 : G : En :  :  : 
+PLL_V1 : 0 : G : En :  :  : 
+PLL_V2 : 1 : G : En :  :  : 

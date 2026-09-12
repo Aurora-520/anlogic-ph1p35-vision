@@ -1,0 +1,7 @@
+*.v text eol=lf
+*.sv text eol=lf
+*.vh text eol=lf
+*.adc text eol=lf
+*.sdc text eol=lf
+*.al text eol=lf
+*.md text eol=lf

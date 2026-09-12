@@ -1,0 +1,8 @@
+`define DP_RAM_c36c2ca3b3a7
+`define OUTREG_DISA_c36c2ca3b3a7
+`define ASYNC_RELEASE_A_c36c2ca3b3a7
+`define OUTREG_DISB_c36c2ca3b3a7
+`define ASYNC_RELEASE_B_c36c2ca3b3a7
+`define FAST_c36c2ca3b3a7
+`define WEA_EN_c36c2ca3b3a7
+`define PH1P_c36c2ca3b3a7

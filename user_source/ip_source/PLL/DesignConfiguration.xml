@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:designConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:anlogic="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>anlogic.com</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>designConfig_PLL</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:viewConfiguration>
+        <ipxact:instanceName>ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst</ipxact:instanceName>
+        <ipxact:view viewRef="view"/>
+    </ipxact:viewConfiguration>
+    <ipxact:vendorExtensions>
+        <anlogic:displayname>PLL</anlogic:displayname>
+        <anlogic:ipGenVersion value="168007 2025/07/10">1.0</anlogic:ipGenVersion>
+    </ipxact:vendorExtensions>
+</ipxact:designConfiguration>

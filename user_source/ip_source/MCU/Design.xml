@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:anlogic="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>anlogic.com</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>design_MCU</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:componentInstances>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>MCU_f9f874759a41_Inst</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="ip" name="RISCV_F6F1D1P0" version="1.0"/>
+            <ipxact:configurableElementValues>
+                <ipxact:configurableElementValue referenceId="MCU_RESET_VECTOR">'h20E00000</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="JTAG_Available">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="GPIO0_Available">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="GPIO1_Available">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="GPIO2_Available">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="GPIO3_Available">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="GPIO4_Available">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="GPIO5_Available">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="GPIO6_Available">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="GPIO7_Available">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="UART0_Available">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="UART1_Available">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="I2C_Available">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="QSPI_Available">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="AHB_Available">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="APB_Available">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="MCU_JTAG_SEL">&quot;1&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="QSPI_FREQ">&quot;50.0&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="AHB_FREQ">&quot;150.0&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Core_Clock_FREQ">300</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Timer_Clock_FREQ">100</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="AHB_Div">2</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="QSPI0_Div">6</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="QSPI1_Div">6</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="UART0_Baud_Rate">115200</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="UART1_Baud_Rate">115200</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="MCU_DPLL_POST_DIV">4</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="ERROR_FLAG">0</ipxact:configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+    </ipxact:componentInstances>
+    <ipxact:adHocConnections>
+        <ipxact:adHocConnection>
+            <ipxact:name>jtag_tck</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="jtag_tck"/>
+                <ipxact:externalPortReference portRef="jtag_tck"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>jtag_tms</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="jtag_tms"/>
+                <ipxact:externalPortReference portRef="jtag_tms"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>jtag_tdi</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="jtag_tdi"/>
+                <ipxact:externalPortReference portRef="jtag_tdi"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>jtag_tdo</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="jtag_tdo"/>
+                <ipxact:externalPortReference portRef="jtag_tdo"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio0_in</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio0_in"/>
+                <ipxact:externalPortReference portRef="gpio0_in"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio0_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio0_out"/>
+                <ipxact:externalPortReference portRef="gpio0_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio0_dir</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio0_dir"/>
+                <ipxact:externalPortReference portRef="gpio0_dir"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio1_in</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio1_in"/>
+                <ipxact:externalPortReference portRef="gpio1_in"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio1_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio1_out"/>
+                <ipxact:externalPortReference portRef="gpio1_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio1_dir</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio1_dir"/>
+                <ipxact:externalPortReference portRef="gpio1_dir"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio2_in</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio2_in"/>
+                <ipxact:externalPortReference portRef="gpio2_in"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio2_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio2_out"/>
+                <ipxact:externalPortReference portRef="gpio2_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio2_dir</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio2_dir"/>
+                <ipxact:externalPortReference portRef="gpio2_dir"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio3_in</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio3_in"/>
+                <ipxact:externalPortReference portRef="gpio3_in"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio3_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio3_out"/>
+                <ipxact:externalPortReference portRef="gpio3_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio3_dir</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio3_dir"/>
+                <ipxact:externalPortReference portRef="gpio3_dir"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio4_in</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio4_in"/>
+                <ipxact:externalPortReference portRef="gpio4_in"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio4_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio4_out"/>
+                <ipxact:externalPortReference portRef="gpio4_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio4_dir</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio4_dir"/>
+                <ipxact:externalPortReference portRef="gpio4_dir"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio5_in</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio5_in"/>
+                <ipxact:externalPortReference portRef="gpio5_in"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio5_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio5_out"/>
+                <ipxact:externalPortReference portRef="gpio5_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio5_dir</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio5_dir"/>
+                <ipxact:externalPortReference portRef="gpio5_dir"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio6_in</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio6_in"/>
+                <ipxact:externalPortReference portRef="gpio6_in"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio6_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio6_out"/>
+                <ipxact:externalPortReference portRef="gpio6_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio6_dir</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio6_dir"/>
+                <ipxact:externalPortReference portRef="gpio6_dir"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio7_in</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio7_in"/>
+                <ipxact:externalPortReference portRef="gpio7_in"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio7_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio7_out"/>
+                <ipxact:externalPortReference portRef="gpio7_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gpio7_dir</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="gpio7_dir"/>
+                <ipxact:externalPortReference portRef="gpio7_dir"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>uart0_tx</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="uart0_tx"/>
+                <ipxact:externalPortReference portRef="uart0_tx"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>uart0_rx</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="uart0_rx"/>
+                <ipxact:externalPortReference portRef="uart0_rx"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>uart1_tx</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="uart1_tx"/>
+                <ipxact:externalPortReference portRef="uart1_tx"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>uart1_rx</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="uart1_rx"/>
+                <ipxact:externalPortReference portRef="uart1_rx"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>qspi1_clk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="qspi1_clk"/>
+                <ipxact:externalPortReference portRef="qspi1_clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>qspi1_ss</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="qspi1_ss"/>
+                <ipxact:externalPortReference portRef="qspi1_ss"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>qspi1_d0_in</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="qspi1_d0_in"/>
+                <ipxact:externalPortReference portRef="qspi1_d0_in"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>qspi1_d1_in</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="qspi1_d1_in"/>
+                <ipxact:externalPortReference portRef="qspi1_d1_in"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>qspi1_d2_in</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="qspi1_d2_in"/>
+                <ipxact:externalPortReference portRef="qspi1_d2_in"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>qspi1_d3_in</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="qspi1_d3_in"/>
+                <ipxact:externalPortReference portRef="qspi1_d3_in"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>qspi1_d0_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="qspi1_d0_out"/>
+                <ipxact:externalPortReference portRef="qspi1_d0_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>qspi1_d1_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="qspi1_d1_out"/>
+                <ipxact:externalPortReference portRef="qspi1_d1_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>qspi1_d2_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="qspi1_d2_out"/>
+                <ipxact:externalPortReference portRef="qspi1_d2_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>qspi1_d3_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="qspi1_d3_out"/>
+                <ipxact:externalPortReference portRef="qspi1_d3_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>qspi1_dir</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="qspi1_dir"/>
+                <ipxact:externalPortReference portRef="qspi1_dir"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>ahb_clk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="ahb_clk"/>
+                <ipxact:externalPortReference portRef="ahb_clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>htrans</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="htrans"/>
+                <ipxact:externalPortReference portRef="htrans"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>hwrite</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="hwrite"/>
+                <ipxact:externalPortReference portRef="hwrite"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>haddr</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="haddr"/>
+                <ipxact:externalPortReference portRef="haddr"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>hsize</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="hsize"/>
+                <ipxact:externalPortReference portRef="hsize"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>hburst</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="hburst"/>
+                <ipxact:externalPortReference portRef="hburst"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>hprot</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="hprot"/>
+                <ipxact:externalPortReference portRef="hprot"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>hmastlock</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="hmastlock"/>
+                <ipxact:externalPortReference portRef="hmastlock"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>hwdata</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="hwdata"/>
+                <ipxact:externalPortReference portRef="hwdata"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>hrdata</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="hrdata"/>
+                <ipxact:externalPortReference portRef="hrdata"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>hresp</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="hresp"/>
+                <ipxact:externalPortReference portRef="hresp"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>hready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="hready"/>
+                <ipxact:externalPortReference portRef="hready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>apb_clk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="apb_clk"/>
+                <ipxact:externalPortReference portRef="apb_clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>apb_rst</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="apb_rst"/>
+                <ipxact:externalPortReference portRef="apb_rst"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>paddr</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="paddr"/>
+                <ipxact:externalPortReference portRef="paddr"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>psel</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="psel"/>
+                <ipxact:externalPortReference portRef="psel"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>penable</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="penable"/>
+                <ipxact:externalPortReference portRef="penable"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>pwrite</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="pwrite"/>
+                <ipxact:externalPortReference portRef="pwrite"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>pwdata</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="pwdata"/>
+                <ipxact:externalPortReference portRef="pwdata"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>pstrobe</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="pstrobe"/>
+                <ipxact:externalPortReference portRef="pstrobe"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>pprot</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="pprot"/>
+                <ipxact:externalPortReference portRef="pprot"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>prdata</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="prdata"/>
+                <ipxact:externalPortReference portRef="prdata"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>pready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="pready"/>
+                <ipxact:externalPortReference portRef="pready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>pslverr</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="pslverr"/>
+                <ipxact:externalPortReference portRef="pslverr"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>core_clk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="core_clk"/>
+                <ipxact:externalPortReference portRef="core_clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>timer_clk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="timer_clk"/>
+                <ipxact:externalPortReference portRef="timer_clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>core_reset</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="core_reset"/>
+                <ipxact:externalPortReference portRef="core_reset"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>por_reset</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="por_reset"/>
+                <ipxact:externalPortReference portRef="por_reset"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>nmi</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="nmi"/>
+                <ipxact:externalPortReference portRef="nmi"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>clic_irq</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MCU_f9f874759a41_Inst" portRef="clic_irq"/>
+                <ipxact:externalPortReference portRef="clic_irq"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+    </ipxact:adHocConnections>
+    <ipxact:vendorExtensions>
+        <anlogic:device>PH1P35MDG324</anlogic:device>
+        <anlogic:displayname>MCU</anlogic:displayname>
+        <anlogic:ipGenVersion>1.0</anlogic:ipGenVersion>
+    </ipxact:vendorExtensions>
+</ipxact:design>

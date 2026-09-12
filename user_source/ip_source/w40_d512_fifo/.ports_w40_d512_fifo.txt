@@ -1,0 +1,17 @@
+rst0; 0
+rst1; 1
+srst; 0
+clk; 1
+clkw; 0
+clkr; 0
+we; 1
+di; 1
+re; 1
+dout; 1
+valid; 1
+full_flag; 1
+empty_flag; 1
+afull; 1
+aempty; 1
+wrusedw; 1
+rdusedw; 1

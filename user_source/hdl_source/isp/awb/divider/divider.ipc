@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DIVIDERConfig>
+    <DIVIDER_OPTIONS>
+        <deno_str>UNSIGNED</deno_str>
+        <denom_width>32</denom_width>
+        <level_nu>50</level_nu>
+        <model_select>pipline</model_select>
+        <nu_str>UNSIGNED</nu_str>
+        <numer_width>48</numer_width>
+    </DIVIDER_OPTIONS>
+    <GeneralConfig>
+        <Device>PH1A180SFG676</Device>
+        <IP_ID>39</IP_ID>
+        <Type>PH1_LOGIC_SEQ_DIV</Type>
+        <Version>1.1</Version>
+        <create_VHDL>false</create_VHDL>
+        <inst>divider</inst>
+    </GeneralConfig>
+    <GeneratedFiles>
+        <GateVerilog Enable="true">divider_gate.v</GateVerilog>
+    </GeneratedFiles>
+</DIVIDERConfig>

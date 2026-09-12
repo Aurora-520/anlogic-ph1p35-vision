@@ -1,0 +1,140 @@
+PH1P_DDR_TYPE : Integrated : U : En : DDR2;;DDR3;;DDR4;;Integrated :  : 
+PH1P_PingPong_PHY : 0 : U : Dis :  :  : 
+PH1P_SINGLE_PLL : 0 : U : En :  :  : 
+PH1P_REF_CLK : 100.0000 : U : En :  : 25.0000 : 400.0000
+PH1P_DDR_SPEED : 1066.00 : U : En :  : 400 : 1600
+PH1P_DQ_BYTE : 2 : U : Dis : 2 :  : 
+PH1P_IO_VOL : 1.5 : U : Dis : 1.5 :  : 
+PH1P_VREF : Internal : U : Dis : External;;Internal :  : 
+PH1P_PZQ_CAL : 0 : U : Dis :  :  : 
+PH1P_PZQ_SHARE : 0 : U : Dis :  :  : 
+PH1P_MASTER_BK : BANK11 : U : Dis : BANK11;;BANK12;;BANK13;;BANK14;;BANK32;;BANK33 :  : 
+PH1P_COMP_TYPE : x16 : U : Dis : x8;;x16 :  : 
+PH1P_COMP_DENSITY : 512 : U : Dis : 512 :  : 
+PH1P_SPEED_BIN : DDR2-1066 : U : En : DDR2-1066;;DDR2-1333-8;;DDR2-1333-9 :  : 
+PH1P_MC_EN : 1 : G : En :  :  : 
+GEN_AXI_CTRL : 1 : G : En :  :  : 
+PH1P_AXI_CTRL : 0 : U : En :  :  : 
+GEN_ECC_EN : 1 : G : En :  :  : 
+PH1P_ECC_EN : 0 : U : En :  :  : 
+CHECK_ECC : 1 : G : En :  :  : 
+MC_ECC : OFF : G : En :  :  : 
+PH1P_WDM_WDBI : WDM : U : Dis : WDM :  : 
+PH1P_RDBI : NONE : U : Dis : NONE;;RDBI :  : 
+PH1P_AXI_ADDR_MAP : ROW_COL_BANK : U : En : BANK_ROW_COL;;ROW_COL_BANK;;ROW_BANK_COL :  : 
+MC_ADDR_MAP : ROW_COL_BANK : G : En :  :  : 
+PH1P_MC_REORDER : NORMAL : U : En : NORMAL;;STRICT :  : 
+MC_REORDER : NORMAL : G : En :  :  : 
+PH1P_DDR_CS : 1 : U : Dis : 1;;2 :  : 
+PH1P_DDR_CK : 1 : U : Dis : 1;;2 :  : 
+PH1P_DDR_RESET : 0 : U : Dis : 0 :  : 
+PH1P_DDR_CKE : 1 : U : Dis : 1;;2 :  : 
+PH1P_DDR_ODT : 1 : U : Dis : 1;;2 :  : 
+PH1P_DDR_PARITY : 0 : U : Dis : 0;;1 :  : 
+PH1P_DDR_ALERT : 0 : G : Dis :  :  : 
+GEN_DUAL_PLL : 1 : G : En :  :  : 
+GEN_DELAY_EN : 0 : G : En :  :  : 
+GEN_DELAY_B1 : 0 : G : En :  :  : 
+GEN_DELAY_B2 : 0 : G : En :  :  : 
+GEN_DELAY_B3 : 0 : G : En :  :  : 
+GEN_DELAY_B4 : 0 : G : En :  :  : 
+GEN_DELAY_B5 : 0 : G : En :  :  : 
+GEN_DELAY_B6 : 0 : G : En :  :  : 
+GEN_DELAY_B7 : 0 : G : En :  :  : 
+GEN_DELAY_B8 : 0 : G : En :  :  : 
+PH1P_DELAY_B0 : 1 : G : Dis :  :  : 
+PH1P_DELAY_B0_AC : 110 : U : Dis :  : 0 : 2000
+PH1P_DELAY_B0_DQ : 110 : U : Dis :  : 0 : 2000
+PH1P_DELAY_B1 : 1 : G : Dis :  :  : 
+PH1P_DELAY_B1_AC : 110 : U : Dis :  : 0 : 2000
+PH1P_DELAY_B1_DQ : 110 : U : Dis :  : 0 : 2000
+PH1P_DELAY_B2 : 0 : G : Dis :  :  : 
+PH1P_DELAY_B2_AC : 0 : U : Dis :  :  : 
+PH1P_DELAY_B2_DQ : 0 : U : Dis :  :  : 
+PH1P_DELAY_B3 : 0 : G : Dis :  :  : 
+PH1P_DELAY_B3_AC : 0 : U : Dis :  :  : 
+PH1P_DELAY_B3_DQ : 0 : U : Dis :  :  : 
+PH1P_DELAY_B4 : 0 : G : Dis :  :  : 
+PH1P_DELAY_B4_AC : 0 : U : Dis :  :  : 
+PH1P_DELAY_B4_DQ : 0 : U : Dis :  :  : 
+PH1P_DELAY_B5 : 0 : G : Dis :  :  : 
+PH1P_DELAY_B5_AC : 0 : U : Dis :  :  : 
+PH1P_DELAY_B5_DQ : 0 : U : Dis :  :  : 
+PH1P_DELAY_B6 : 0 : G : Dis :  :  : 
+PH1P_DELAY_B6_AC : 0 : U : Dis :  :  : 
+PH1P_DELAY_B6_DQ : 0 : U : Dis :  :  : 
+PH1P_DELAY_B7 : 0 : G : Dis :  :  : 
+PH1P_DELAY_B7_AC : 0 : U : Dis :  :  : 
+PH1P_DELAY_B7_DQ : 0 : U : Dis :  :  : 
+PH1P_DELAY_B8 : 0 : G : Dis :  :  : 
+PH1P_DELAY_B8_AC : 0 : U : Dis :  :  : 
+PH1P_DELAY_B8_DQ : 0 : U : Dis :  :  : 
+GEN_TRAINING_EN : 0 : G : En :  :  : 
+PH1P_TRAINING_EN : 0 : G : Dis :  :  : 
+PH1P_MC_AXI : 0 : G : En :  :  : 
+PH1P_MC_PAXI : 1 : G : En :  :  : 
+GEN_PZQ_SHARE_EN : 0 : G : Dis :  :  : 
+GEN_MASTER_BK_EN : 0 : G : Dis :  :  : 
+GEN_RDBI_EN : 0 : G : En :  :  : 
+GEN_CS_EN : 0 : G : En :  :  : 
+GEN_AC_BYTE : 0 : G : En :  :  : 
+ENABLE_DDR2 : 1 : G : En :  :  : 
+ENABLE_DDR3 : 0 : G : En :  :  : 
+ENABLE_DDR4 : 0 : G : En :  :  : 
+ENABLE_TWO_TYPE : 1 : G : En :  :  : 
+GEN_RESET : 0 : G : En :  :  : 
+tCK : 1876 : G : En :  :  : 
+CS_WIDTH : 1 : G : En :  :  : 
+CKE_WIDTH : 1 : G : En :  :  : 
+CK_WIDTH : 1 : G : En :  :  : 
+ODT_WIDTH : 1 : G : En :  :  : 
+BG_WIDTH : 0 : G : En :  :  : 
+BA_WIDTH : 2 : G : En :  :  : 
+COL_WIDTH : 10 : G : En :  :  : 
+ROW_WIDTH : 13 : G : En :  :  : 
+ADR_WIDTH : 13 : G : En :  :  : 
+PAR_WIDTH : 0 : G : En :  :  : 
+PH1P_DDR_CL : 7 : G : Dis :  :  : 
+HOST_AC_DRV : 75 : G : En :  :  : 
+HOST_DX_DRV : 75 : G : En :  :  : 
+HOST_DX_ODT : 75 : G : En :  :  : 
+DRAM_DRV : 0 : G : En :  :  : 
+DRAM_ODT : 75 : G : En :  :  : 
+WDM : 1 : G : En :  :  : 
+CL : 7 : G : En :  :  : 
+CWL : 6 : U : En : 6 :  : 
+CAL_EN : 0 : G : En :  :  : 
+DX_NUM : 2 : G : En :  :  : 
+DQS_WIDTH : 2 : G : En :  :  : 
+DQ_WIDTH : 16 : G : En :  :  : 
+DM_WIDTH : 2 : G : En :  :  : 
+MC_ADDR_WIDTH : 25 : G : En :  :  : 
+MC_DATA_WIDTH : 128 : G : En :  :  : 
+MC_MASK_WIDTH : 16 : G : En :  :  : 
+AXI_ID_WIDTH : 4 : G : En :  :  : 
+AXI_ADDR_WIDTH : 26 : G : En :  :  : 
+AXI_DATA_WIDTH : 128 : G : En :  :  : 
+AXI_MASK_WIDTH : 16 : G : En :  :  : 
+PH1P_IO_ASSIGN :  : U : Dis :  :  : 
+PH1P_AC_BYTE : 4 : G : Dis :  :  : 
+PH1P_DRC_CHECK : PASS : G : Dis :  :  : 
+AC_NUM : 4 : G : En :  :  : 
+PH1P_PLL_LOC : BANK12 : G : Dis : BANK12 :  : 
+PH1P_REFCLK_TYPE : NONE : U : Dis : NONE :  : 
+GEN_BUFG : 0 : G : En :  :  : 
+PH1P_SYSCLK_LOC : NONE : G : Dis : NONE :  : 
+ADD_CLK_LOC : 1 : G : En :  :  : 
+PLL0_REFCLK_FREQ : 100.0 : G : En :  :  : 
+PLL0_REFCLK_DIV : 3 : G : En :  :  : 
+PLL0_FBKCLK_DIV : 32 : G : En :  :  : 
+PLL0_FRAC : DISABLE : G : En :  :  : 
+PLL0_FRAC_SDM : 0 : G : En :  :  : 
+PLL0_CLK2_DIV : 2 : G : En :  :  : 
+PLL0_CLK3_DIV : 21 : G : En :  :  : 
+PLL1_REFCLK_FREQ : 133.3 : G : En :  :  : 
+PLL1_REFCLK_DIV : 4 : G : En :  :  : 
+PLL1_CLK0_DIV : 12 : G : En :  :  : 
+PH1P_ACTUAL_FREQ : 533.3 : G : Dis :  :  : 
+BK_NUM : 2 : G : En :  :  : 
+ENABLE_324 : 0 : G : En :  :  : 
+DEFINE_IO_TYPE : PH1P35_DDRIO_PAD : G : En :  :  : 
