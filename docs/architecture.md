@@ -21,8 +21,11 @@ SC500CS
 - `rtl/app/design_top_wrapper.v`：唯一板级顶层，只负责端口映射。
 - `vendor_reference/rtl/vendor_lab1_core.v`：官方 Lab1 功能核心的隔离副本；禁止在此加入比赛算法。
 - `rtl/app/vision_pipeline.v`：项目自有视频处理入口，后续边缘检测、OSD、模式控制从这里接入。
-- `rtl/app/algorithm_mode_ctrl.v`：KEY1/KEY2 消抖和算法模式状态机。
-- `rtl/algorithm/pixel_algorithm.v`：RGB 直通、灰度二值化和 3x3 Sobel 边缘输出。
+- `rtl/control/mode_ctrl.v`：KEY1~KEY4 消抖和算法模式状态机（模块名仍为 `algorithm_mode_ctrl`）。
+- `rtl/isp/pixel_algorithm.v`：RGB 直通、灰度、二值化和 3x3 Sobel 边缘输出。
+- `rtl/overlay/logo_overlay.v`：官方安路 Logo 叠加，位于算法输出之后，因此所有算法模式都显示 Logo。
+- `rtl/overlay/anlogic_logo_rom.v`：从 Lab3 OSD 例程复制的 Logo ROM。
+- `rtl/platform/`：平台相关封装与后续板级适配代码；不放算法业务逻辑。
 - `rtl/config/vision_config.vh`：分辨率、功能开关等项目级配置的唯一来源。
 - `rtl/common/video_stream_if.vh`：自研模块之间的视频流接口约定。
 - `user_source/hdl_source/uics500_cfg/`：SC500 I2C 配置和 720p60 寄存器表。
