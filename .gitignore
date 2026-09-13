@@ -3,6 +3,7 @@ td_project/*_Runs/
 td_project/log/
 td_project/*.log
 td_project/*.logw
+td_project/.lock.f
 *.jou
 *.wlf
 *.vcd
@@ -17,4 +18,3 @@ Thumbs.db
 # Keep empty report directories
 !reports/**/
 !reports/**/.gitkeep
-
