@@ -154,6 +154,7 @@ module vendor_lab1_core (
     wire[23:0]  S_video_rd_data;
     wire[1:0]   S_algorithm_mode;
     wire[23:0]  S_algorithm_data;
+    wire[23:0]  S_overlay_data;
     reg         S_dbg_raw_seen;
     reg         S_dbg_isp_seen;
     reg         S_dbg_ddr_wr_seen;
@@ -835,6 +836,16 @@ isp_top u_isp_top (
         .pixel_out   ( S_algorithm_data )
     );
 
+    logo_overlay u_logo_overlay(
+        .clk         ( S_hdmi_pixel_clk ),
+        .rst_n       ( S_hdmi_rst_n     ),
+        .frame_start ( S_hdmi_user      ),
+        .line_end    ( S_hdmi_last      ),
+        .de          ( S_hdmi_de        ),
+        .pixel_in    ( S_algorithm_data ),
+        .pixel_out   ( S_overlay_data   )
+    );
+
     hdmi_mixer #(
         .H_OFFSET   ( 0    ),
         .V_OFFSET   ( 0    ),
@@ -851,7 +862,7 @@ isp_top u_isp_top (
         .I_video_last    ( S_hdmi_last        ),
         .I_debug_status  ( S_hdmi_debug_status),
         .O_video_rd_en   ( S_hdmi_window_rd_en),
-        .I_video_rd_data ( S_algorithm_data   ),
+        .I_video_rd_data ( S_overlay_data     ),
         .O_hdmi_vsync    ( S_hdmi_out_vsync   ),
         .O_hdmi_hsync    ( S_hdmi_out_hsync   ),
         .O_hdmi_de       ( S_hdmi_out_de      ),
