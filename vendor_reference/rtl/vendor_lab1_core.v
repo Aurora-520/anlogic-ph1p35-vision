@@ -9,7 +9,7 @@ module vendor_lab1_core (
     output wire       O_cam_24m,
     output wire       O_cam_rst,
       
-    inout wire [1:0]  I_button,
+    inout wire [3:0]  I_button,
 
     output wire       O_screen_pwm,
     output wire       O_tmds_ch0_p,
@@ -152,6 +152,8 @@ module vendor_lab1_core (
     wire[23:0]  S_hdmi_out_data;
 
     wire[23:0]  S_video_rd_data;
+    wire[1:0]   S_algorithm_mode;
+    wire[23:0]  S_algorithm_data;
     reg         S_dbg_raw_seen;
     reg         S_dbg_isp_seen;
     reg         S_dbg_ddr_wr_seen;
@@ -506,7 +508,7 @@ module vendor_lab1_core (
   ae_set u_ae_set (
       .I_clk(S_24m_clk),
       .I_rst(~S_rst_n),
-      .I_btn({I_button,2'b11}),
+      .I_btn({I_button[1:0],2'b11}),
       .I_cam_cfg_done(S_cam_cfg_done),
       .I_ae_cfg_done(S_ae_cfg_done),
       .O_ae_req(S_ae_req),
@@ -810,6 +812,29 @@ isp_top u_isp_top (
         .O_vtc_last    ( S_hdmi_last      )
     );
 
+    algorithm_mode_ctrl u_algorithm_mode_ctrl(
+        .clk       ( S_hdmi_pixel_clk ),
+        .rst_n     ( S_hdmi_rst_n     ),
+        .buttons_n ( I_button[2:0]    ),
+        .mode      ( S_algorithm_mode )
+    );
+
+    pixel_algorithm #(
+        .IMG_WIDTH ( 1280 ),
+        .IMG_HEIGHT( 720  ),
+        .BINARY_TH ( 8'd96 ),
+        .EDGE_TH   ( 11'd80 )
+    )u_pixel_algorithm(
+        .clk         ( S_hdmi_pixel_clk ),
+        .rst_n       ( S_hdmi_rst_n     ),
+        .mode        ( S_algorithm_mode ),
+        .frame_start ( S_hdmi_user      ),
+        .line_end    ( S_hdmi_last      ),
+        .de          ( S_hdmi_de        ),
+        .pixel_in    ( S_video_rd_data  ),
+        .pixel_out   ( S_algorithm_data )
+    );
+
     hdmi_mixer #(
         .H_OFFSET   ( 0    ),
         .V_OFFSET   ( 0    ),
@@ -826,7 +851,7 @@ isp_top u_isp_top (
         .I_video_last    ( S_hdmi_last        ),
         .I_debug_status  ( S_hdmi_debug_status),
         .O_video_rd_en   ( S_hdmi_window_rd_en),
-        .I_video_rd_data ( S_video_rd_data    ),
+        .I_video_rd_data ( S_algorithm_data   ),
         .O_hdmi_vsync    ( S_hdmi_out_vsync   ),
         .O_hdmi_hsync    ( S_hdmi_out_hsync   ),
         .O_hdmi_de       ( S_hdmi_out_de      ),

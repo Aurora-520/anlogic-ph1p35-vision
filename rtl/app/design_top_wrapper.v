@@ -12,7 +12,7 @@ module design_top_wrapper (
     inout  wire       IO_cam_sda,
     output wire       O_cam_24m,
     output wire       O_cam_rst,
-    inout  wire [1:0] I_button,
+    inout  wire [3:0] I_button,
     output wire       O_screen_pwm,
     output wire       O_tmds_ch0_p,
     output wire       O_tmds_ch1_p,

@@ -20,6 +20,7 @@ $checks = [ordered]@{
     'Top design_top_wrapper' = $alText -match '<MODULE>design_top_wrapper</MODULE>'
     'Vendor baseline core' = Test-Path -LiteralPath (Join-Path $ProjectRoot 'vendor_reference\rtl\vendor_lab1_core.v')
     'Application pipeline boundary' = Test-Path -LiteralPath (Join-Path $ProjectRoot 'rtl\app\vision_pipeline.v')
+    'Four-key pin map' = ($alText -match 'design_top_wrapper') -and ((Get-Content -LiteralPath $pin -Raw) -match 'I_button\[2\]')
     '720p60 register table' = Test-Path -LiteralPath (Join-Path $ProjectRoot 'user_source\hdl_source\uics500_cfg\uics500reg_720p60.v')
     'MIPI wrapper' = Test-Path -LiteralPath (Join-Path $ProjectRoot 'user_source\hdl_source\mipi_dphy_rx\mipi_dphy_rx_ph1p_mipiio_wrapper.sv')
     'DDR wrapper' = Test-Path -LiteralPath (Join-Path $ProjectRoot 'user_source\hdl_source\ph1p35_ddr\ph1p35_324_ddr_wrapper.v')

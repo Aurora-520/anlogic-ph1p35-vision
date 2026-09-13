@@ -9,6 +9,7 @@
 - 开发板：HX1P35A
 - 摄像头：SC500CS，2-lane MIPI CSI-2，RAW10
 - 输出：HDMI，1280x720@60Hz
+- 算法模式：K1 二值化、K2 边缘检测、K3 灰度图；再次按当前算法键返回原始画面
 - 顶层：`design_top_wrapper`
 - TD 工程：`td_project/camera_to_dsi_display.al`
 
@@ -36,4 +37,3 @@
 ## 官方参考资料
 
 官方例程和资料保存在 `E:\References\Embedded\Competitions\FPGA`，本仓库只记录来源，不复制整套资料。参考 Lab1/2/3 的说明见 `vendor_reference/README.md`。
-

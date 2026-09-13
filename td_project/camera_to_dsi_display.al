@@ -38,6 +38,22 @@
                     <Attr Name="CompileOrder" Val="5"/>
                 </FileInfo>
             </File>
+            <File Path="../rtl/app/algorithm_mode_ctrl.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true"/>
+                    <Attr Name="UsedInP&amp;R" Val="true"/>
+                    <Attr Name="BelongTo" Val="design_1"/>
+                    <Attr Name="CompileOrder" Val="4"/>
+                </FileInfo>
+            </File>
+            <File Path="../rtl/algorithm/pixel_algorithm.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true"/>
+                    <Attr Name="UsedInP&amp;R" Val="true"/>
+                    <Attr Name="BelongTo" Val="design_1"/>
+                    <Attr Name="CompileOrder" Val="5"/>
+                </FileInfo>
+            </File>
             <File Path="../user_source/hdl_source/video_in.v">
                 <FileInfo>
                     <Attr Name="UsedInSyn" Val="true"/>
