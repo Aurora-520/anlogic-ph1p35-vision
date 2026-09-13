@@ -1,6 +1,6 @@
 
 
-module design_top_wrapper (
+module vendor_lab1_core (
     input wire        I_sys_clk,
     input wire        I_rst_n,
       
@@ -867,3 +867,4 @@ isp_top u_isp_top (
 
     
 endmodule
+

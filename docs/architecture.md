@@ -16,9 +16,13 @@ SC500CS
 
 视频模式固定为 SC500CS 1280x720@60fps，HDMI 有效区为 1280x720。第一阶段不切换 1080p30，不改 MIPI PHY、DDR、PLL 和 HDMI 物理层。
 
-## 当前源代码边界
+## 最终模块化边界
 
-- `user_source/hdl_source/design_top_wrapper.v`：系统例化和时钟/复位连接。
+- `rtl/app/design_top_wrapper.v`：唯一板级顶层，只负责端口映射。
+- `vendor_reference/rtl/vendor_lab1_core.v`：官方 Lab1 功能核心的隔离副本；禁止在此加入比赛算法。
+- `rtl/app/vision_pipeline.v`：项目自有视频处理入口，后续边缘检测、OSD、模式控制从这里接入。
+- `rtl/config/vision_config.vh`：分辨率、功能开关等项目级配置的唯一来源。
+- `rtl/common/video_stream_if.vh`：自研模块之间的视频流接口约定。
 - `user_source/hdl_source/uics500_cfg/`：SC500 I2C 配置和 720p60 寄存器表。
 - `user_source/hdl_source/mipi_dphy_rx/`：PH1P35 MIPI 接收 IP/封装。
 - `user_source/hdl_source/isp/`：CSI/RAW10 解包、去马赛克和颜色处理。
@@ -27,7 +31,7 @@ SC500CS
 - `user_source/hdl_source/vtc/uivtc.v`、`hdmi_mixer.v`、`hdmi_tx.v`：HDMI 时序和发送。
 - `user_source/constraints_source/pin.adc`：HX1P35A 引脚约束。
 
-`rtl/` 当前只作为后续自有模块的目标目录。若直接移动官方文件，必须同步修改 `.al` 的相对路径和编译顺序；第一阶段不做迁移。
+官方底层文件仍保留在 `user_source/hdl_source/`，因为这些文件包含 TD/IP 生成依赖；板级单体顶层已经移入 `vendor_reference` 并改名为 `vendor_lab1_core`，TD 工程现在由自有顶层统一封装。这样既保留可工作的官方链路，又避免以后直接修改官方顶层。
 
 ## 关键时钟域
 
@@ -46,4 +50,3 @@ SC500CS
 ## 调试模式
 
 `design_top_wrapper.v` 当前将 `hdmi_mixer` 设置为 `DEBUG_MODE=0`，默认输出摄像头画面。临时定位 HDMI 问题时可以改为 `1`（彩条）或 `3`（四段链路状态条），重新综合并生成 `.bit`；调试完成后恢复为 `0`。
-
