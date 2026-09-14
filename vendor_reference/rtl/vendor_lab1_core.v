@@ -152,7 +152,7 @@ module vendor_lab1_core (
     wire[23:0]  S_hdmi_out_data;
 
     wire[23:0]  S_video_rd_data;
-    wire[1:0]   S_algorithm_mode;
+    wire[2:0]   S_algorithm_mode;
     wire[23:0]  S_algorithm_data;
     wire[23:0]  S_overlay_data;
     reg         S_dbg_raw_seen;
@@ -816,7 +816,7 @@ isp_top u_isp_top (
     algorithm_mode_ctrl u_algorithm_mode_ctrl(
         .clk       ( S_hdmi_pixel_clk ),
         .rst_n     ( S_hdmi_rst_n     ),
-        .buttons_n ( I_button[2:0]    ),
+        .buttons_n ( I_button[1:0]    ),
         .mode      ( S_algorithm_mode )
     );
 

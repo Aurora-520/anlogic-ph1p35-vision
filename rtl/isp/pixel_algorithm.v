@@ -1,5 +1,6 @@
 // Streaming pixel algorithms in the HDMI pixel clock domain.
-// mode 0: passthrough, mode 1: binary, mode 2: Sobel edge, mode 3: gray.
+// mode 0: passthrough, mode 1: binary, mode 2: gray, mode 3: Sobel edge,
+// mode 4: cartoon (color quantization with Sobel edge overlay).
 module pixel_algorithm #(
     parameter integer IMG_WIDTH = 1280,
     parameter integer IMG_HEIGHT = 720,
@@ -8,7 +9,7 @@ module pixel_algorithm #(
 )(
     input  wire       clk,
     input  wire       rst_n,
-    input  wire [1:0] mode,
+    input  wire [2:0] mode,
     input  wire       frame_start,
     input  wire       line_end,
     input  wire       de,
@@ -37,12 +38,20 @@ module pixel_algorithm #(
     wire [23:0] binary_pixel = (gray >= BINARY_TH) ? 24'hffffff : 24'h000000;
     wire [23:0] gray_pixel = {gray,gray,gray};
     wire [23:0] edge_pixel = (edge_valid && magnitude >= EDGE_TH) ? 24'hffffff : 24'h000000;
+    // Three bits per channel produce stable posterized color regions while
+    // keeping the operation purely combinational in the pixel clock domain.
+    wire [23:0] quantized_pixel = {pixel_in[23:21],5'b0,
+                                   pixel_in[15:13],5'b0,
+                                   pixel_in[7:5],5'b0};
+    wire [23:0] cartoon_pixel = (edge_valid && magnitude >= EDGE_TH) ?
+                                 24'h101010 : quantized_pixel;
 
     always @* begin
         case (mode)
-            2'd1: pixel_out = binary_pixel;
-            2'd2: pixel_out = edge_pixel;
-            2'd3: pixel_out = gray_pixel;
+            3'd1: pixel_out = binary_pixel;
+            3'd2: pixel_out = gray_pixel;
+            3'd3: pixel_out = edge_pixel;
+            3'd4: pixel_out = cartoon_pixel;
             default: pixel_out = pixel_in;
         endcase
         if (!de) pixel_out = 24'd0;
