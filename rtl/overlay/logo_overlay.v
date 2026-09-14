@@ -28,8 +28,13 @@ module logo_overlay #(
 
     always @* begin
         logo_addr = 15'd0;
-        if (in_logo)
-            logo_addr = (y - LOGO_Y) * LOGO_W + (x - LOGO_X);
+        if (in_logo) begin
+            // The Lab3 logo is 160 pixels wide. Express 160 as 128+32 so
+            // TD maps the row offset to wiring/LUTs instead of a DSP multiply
+            // on the 75 MHz HDMI pixel path.
+            logo_addr = (((y - LOGO_Y) << 7) + ((y - LOGO_Y) << 5))
+                      + (x - LOGO_X);
+        end
         if (in_logo && logo_pixel[24]) pixel_out = logo_pixel[23:0];
         else pixel_out = pixel_in;
         if (!de) pixel_out = 24'd0;
